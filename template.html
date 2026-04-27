@@ -1,0 +1,3186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{TITLE}}</title>
+<style>
+/* =============== SELF-HOSTED FONTS (font-display: block — no layout shift) =============== */
+@font-face {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(fonts/dm-mono-400-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(fonts/dm-mono-400-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(fonts/dm-mono-500-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'DM Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url(fonts/dm-mono-500-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: block;
+  src: url(fonts/fraunces-normal-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400 900;
+  font-display: block;
+  src: url(fonts/fraunces-normal-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: block;
+  src: url(fonts/fraunces-italic-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 400 700;
+  font-display: block;
+  src: url(fonts/fraunces-italic-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Gloock';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(fonts/gloock-400-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Gloock';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(fonts/gloock-400-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+:root {
+  --paper: #efe6d4;
+  --paper-dark: #e4d9c0;
+  --ink: #1a1410;
+  --ink-soft: #3a2e24;
+  --ink-mute: #6b5c4a;
+  --amber: #b8612b;
+  --amber-deep: #8a3f15;
+  --vinyl: #0d0a08;
+  --gold: #b8944a;
+  --cream: #f5ecd8;
+  --red-ink: #9a2e1f;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 17px;
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image:
+    radial-gradient(ellipse at 15% 10%, rgba(184,97,43,0.08) 0%, transparent 50%),
+    radial-gradient(ellipse at 85% 85%, rgba(26,20,16,0.05) 0%, transparent 50%);
+}
+
+/* Paper grain texture */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.1 0 0 0 0 0.07 0 0 0 0 0.05 0 0 0 0.5 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+  mix-blend-mode: multiply;
+}
+
+/* =============== MASTHEAD =============== */
+.masthead {
+  position: relative;
+  z-index: 2;
+  padding: 32px 48px 24px;
+  border-bottom: 2px solid var(--ink);
+}
+.masthead__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--ink-soft);
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--ink-soft);
+}
+.masthead__top span { display: inline-block; }
+.masthead__title {
+  font-family: 'Gloock', serif;
+  font-size: clamp(3.5rem, 10vw, 8.5rem);
+  font-weight: 400;
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+  padding: 40px 0 16px;
+  color: var(--ink);
+  position: relative;
+}
+.masthead__title em {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--amber-deep);
+  font-size: 0.9em;
+  letter-spacing: -0.02em;
+}
+.masthead__sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 16px;
+  border-top: 1px solid var(--ink-soft);
+  gap: 48px;
+  flex-wrap: wrap;
+}
+.masthead__tagline {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+  max-width: 42em;
+  line-height: 1.5;
+}
+.masthead__chain {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--ink-mute);
+  line-height: 1.65;
+  margin-top: 10px;
+}
+.masthead__issue {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--ink-mute);
+  text-align: right;
+  line-height: 1.8;
+  white-space: nowrap;
+}
+
+/* =============== INTRO =============== */
+.intro {
+  position: relative;
+  z-index: 2;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 96px 48px 72px;
+  max-width: 860px;
+}
+.intro__eyebrow {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: var(--amber-deep);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.intro__eyebrow::before {
+  content: '';
+  width: 32px;
+  height: 1px;
+  background: var(--amber-deep);
+}
+.intro__headline {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin-bottom: 48px;
+}
+.intro__headline em {
+  font-style: italic;
+  color: var(--amber-deep);
+}
+.intro__body p {
+  margin-bottom: 18px;
+  color: var(--ink-soft);
+}
+.intro__body p:first-child::first-letter {
+  font-family: 'Gloock', serif;
+  font-size: 4.2rem;
+  float: left;
+  line-height: 0.85;
+  padding: 6px 10px 0 0;
+  color: var(--amber-deep);
+}
+.intro__signoff {
+  margin-top: 32px;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+}
+.intro__signature {
+  font-family: 'Gloock', serif;
+  font-size: 1.8rem;
+  color: var(--amber-deep);
+  margin-top: 8px;
+}
+
+/* =============== STATS BAR =============== */
+.stats {
+  position: relative;
+  z-index: 2;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 48px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  border-top: 2px solid var(--ink);
+  border-bottom: 2px solid var(--ink);
+}
+.stat {
+  padding: 28px 24px;
+  border-right: 1px solid var(--ink-soft);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.stat:last-child { border-right: none; }
+.stat__label {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--ink-mute);
+}
+.stat__value {
+  font-family: 'Gloock', serif;
+  font-size: 2.6rem;
+  line-height: 1;
+  color: var(--ink);
+}
+.stat__value > span {
+  font-size:1.2rem;
+  color:var(--ink-mute);
+}
+.stat__detail {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+/* =============== MONTH MARKER =============== */
+.month-marker {
+  position: relative;
+  z-index: 2;
+  max-width: 1400px;
+  margin: 72px auto 32px;
+  padding: 0 48px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.month-marker__line {
+  flex: 1;
+  height: 1px;
+  background: var(--ink-soft);
+}
+.month-marker__text {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  color: var(--ink-mute);
+  padding: 0 8px;
+}
+
+/* =============== TIMELINE SIDEBAR =============== */
+.page-wrap {
+  display: grid;
+  grid-template-columns: 148px minmax(0, 1fr);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.timeline {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  border-right: 1px solid rgba(58,46,36,0.12);
+  z-index: 5;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+  /* Breakpoint-varying values used to pre-position the track via CSS
+     so the first item is centered before JS runs (no layout jump).
+     JS computes: shift = viewportH/2 − (trackPad + itemH/2)
+     CSS mirrors: translateY(calc(50vh − navH − trackPad − itemHalfH)) */
+  --tl-nav-h: 36px;
+  --tl-track-pad: 40px;
+  --tl-item-half-h: 18px;
+}
+.timeline__viewport {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  /* Fade top/bottom by masking alpha, not by overlaying a paper-colored
+     rectangle — the body has radial tints + a grain texture, so a solid
+     colored fade leaves visible seams. Mask lives on the viewport so the
+     jump-to-edge buttons (outside the viewport) stay fully opaque. */
+  -webkit-mask-image: linear-gradient(to bottom,
+    transparent 0,
+    #000 56px,
+    #000 calc(100% - 56px),
+    transparent 100%);
+          mask-image: linear-gradient(to bottom,
+    transparent 0,
+    #000 56px,
+    #000 calc(100% - 56px),
+    transparent 100%);
+}
+.timeline__nav {
+  flex: 0 0 auto;
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: var(--ink-soft);
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.2s ease, color 0.2s ease;
+  font: inherit;
+}
+.timeline__nav-marker {
+  /* Sized like a dot; the SVG arrow is absolutely centered on it so the
+     arrow's visual center matches the marker's center regardless of size. */
+  width: 5px;
+  height: 5px;
+  flex-shrink: 0;
+  position: relative;
+  margin-right: 15px;
+}
+.timeline__nav-marker svg {
+  position: absolute;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+}
+.timeline__nav:hover { opacity: 1; color: var(--amber-deep); }
+.timeline__nav:focus-visible { outline: 1px solid var(--amber-deep); outline-offset: -4px; }
+.timeline__line {
+  position: absolute;
+  right: 0; top: 0; bottom: 0;
+  width: 1px;
+  background: var(--ink-soft);
+  opacity: 0.18;
+}
+.timeline__track {
+  display: flex;
+  flex-direction: column;
+  padding: var(--tl-track-pad) 0;
+  transition: transform 0.5s cubic-bezier(.25,.85,.35,1);
+  transform: translateY(calc(50vh - var(--tl-nav-h) - var(--tl-track-pad) - var(--tl-item-half-h)));
+}
+.timeline__month {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 7px 16px 7px 24px;
+  border-right: 2px solid transparent;
+  transition: border-color 0.25s ease;
+  flex-shrink: 0;
+  text-decoration: none;
+  color: inherit;
+}
+a.timeline__nav {
+  text-decoration: none;
+  color: inherit;
+}
+.timeline__month.is-active {
+  border-right-color: var(--amber-deep);
+}
+.timeline__month:hover {
+  border-right-color: rgba(138,63,21,0.35);
+}
+.timeline__dot {
+  width: 5px; height: 5px;
+  border-radius: 50%;
+  background: var(--ink-soft);
+  opacity: 0.3;
+  flex-shrink: 0;
+  transition: opacity 0.25s ease, background 0.25s ease, transform 0.25s ease;
+}
+.timeline__month.is-active .timeline__dot {
+  background: var(--amber-deep);
+  opacity: 1;
+  transform: scale(1.5);
+}
+.timeline__month:hover .timeline__dot { opacity: 0.6; }
+.timeline__label {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  opacity: 0.32;
+  transition: opacity 0.25s ease;
+}
+.timeline__month.is-active .timeline__label { opacity: 1; }
+.timeline__month:hover .timeline__label { opacity: 0.65; }
+.timeline__year {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  line-height: 1;
+  transition: color 0.25s ease;
+}
+.timeline__month.is-active .timeline__year { color: var(--amber-deep); }
+.timeline__mon {
+  font-family: 'DM Mono', monospace;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink);
+  line-height: 1;
+  transition: color 0.25s ease;
+}
+.timeline__month.is-active .timeline__mon { color: var(--amber-deep); }
+
+/* First month of each year marks a year boundary — emphasize label, dot, and type.
+   Color/opacity overrides use :not(.is-active) so the active-state amber wins. */
+.timeline__month.is-year-start .timeline__label { opacity: 0.7; }
+.timeline__month.is-year-start .timeline__mon,
+.timeline__month.is-year-start .timeline__year { font-weight: 700; }
+.timeline__month.is-year-start:not(.is-active) .timeline__year { color: var(--ink-soft); }
+.timeline__month.is-year-start .timeline__dot {
+  width: 6px;
+  height: 6px;
+}
+.timeline__month.is-year-start:not(.is-active) .timeline__dot {
+  background: var(--ink);
+  opacity: 0.6;
+}
+
+@media (max-width: 900px) {
+  /* Keep the ruler visible on mobile, just more compact. */
+  .page-wrap { grid-template-columns: 56px minmax(0, 1fr); }
+  .timeline__month {
+    padding: 5px 6px 5px 10px;
+    gap: 6px;
+  }
+  .timeline { --tl-nav-h: 28px; --tl-track-pad: 24px; --tl-item-half-h: 14.5px; }
+  .timeline__track { padding: var(--tl-track-pad) 0; }
+  .timeline__year { font-size: 8px; letter-spacing: 0.14em; }
+  .timeline__mon { font-size: 10px; letter-spacing: 0.08em; }
+  .timeline__dot { width: 4px; height: 4px; }
+  .timeline__month.is-year-start .timeline__dot { width: 5px; height: 5px; }
+  .timeline__nav { height: 28px; }
+  .timeline__nav-marker { width: 4px; height: 4px; margin-right: 0; }
+  .timeline__nav-marker svg { width: 10px; height: 10px; }
+}
+
+/* =============== ENTRIES =============== */
+.entries {
+  position: relative;
+  z-index: 2;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 48px;
+  padding: 56px 0;
+  border-bottom: 1px solid var(--ink-soft);
+  align-items: start;
+  position: relative;
+}
+.entry:last-child { border-bottom: none; }
+
+.entry__col {
+  display: flex;
+  align-items: flex-start;
+}
+.entry__col .entry__sleeve { margin-right: 5em; }
+
+/* Side A: sleeve+rail container on the left, body on the right. */
+.entry[data-side="A"] .entry__col  { order: 1; }
+.entry[data-side="A"] .entry__body { order: 2; }
+
+.entry[data-side="B"] {
+  grid-template-columns: 1fr auto;
+}
+.entry[data-side="B"] .entry__body { order: 1; text-align: right; }
+.entry[data-side="B"] .entry__col  { order: 2; }
+.entry[data-side="B"] .entry__rail { text-align: right; align-items: flex-end; }
+.entry[data-side="B"] .entry__meta { justify-content: flex-end; }
+.entry[data-side="B"] .entry__stamp { align-self: flex-end; }
+.entry[data-side="B"] .entry__footer { flex-direction: row-reverse; }
+
+.entry__rail {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-family: 'DM Mono', monospace;
+  text-transform: uppercase;
+  padding-top: 4px;
+}
+.entry__num {
+  font-family: 'Gloock', serif;
+  font-size: 3.2rem;
+  line-height: 1;
+  color: var(--amber-deep);
+  letter-spacing: -0.02em;
+  display: inline-block;
+  align-self: flex-start;
+  border: 1px solid var(--amber-deep);
+  padding: 10px 16px 6px;
+}
+.entry[data-side="B"] .entry__num { align-self: flex-end; }
+
+/* SLEEVE with spinning record */
+.entry__sleeve {
+  perspective: 1200px;
+}
+.sleeve {
+  position: relative;
+  width: 360px;
+  max-width: 100%;
+  aspect-ratio: 1;
+  transition: transform 0.6s cubic-bezier(.2,.8,.2,1);
+  transform-style: preserve-3d;
+}
+.entry:hover .sleeve {
+  transform: rotateY(-4deg) rotateX(2deg);
+}
+.sleeve__art {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: var(--cream);
+  border: 1px solid var(--ink);
+  overflow: hidden;
+  z-index: 3;
+  box-shadow:
+    0 1px 0 rgba(26,20,16,0.15),
+    0 10px 30px rgba(26,20,16,0.25),
+    0 30px 50px rgba(26,20,16,0.15);
+}
+.sleeve__art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: contrast(1.02) saturate(0.95);
+}
+.sleeve__corner {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border: 1px solid rgba(255,255,255,0.35);
+}
+.sleeve__corner--tl { top: 8px; left: 8px; border-right: none; border-bottom: none; }
+.sleeve__corner--br { bottom: 8px; right: 8px; border-left: none; border-top: none; }
+
+.sleeve__record {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 2;
+  transform: translateX(6%);
+  transition: transform 0.8s cubic-bezier(.2,.8,.2,1);
+}
+.entry:hover .sleeve__record {
+  transform: translateX(38%) rotate(6deg);
+}
+.record {
+  position: relative;
+  width: 100%; height: 100%;
+  border-radius: 50%;
+  background:
+    repeating-radial-gradient(circle at center,
+      #0a0806 0px, #0a0806 1px,
+      #161210 1px, #161210 2px),
+    radial-gradient(circle at center, #1a1410, #050403);
+  box-shadow:
+    inset 0 0 0 1px #000,
+    0 4px 12px rgba(0,0,0,0.5);
+  animation: spin 8s linear infinite;
+  animation-play-state: paused;
+}
+.entry:hover .record {
+  animation-play-state: running;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.record {
+  position: relative;
+  width: 100%; height: 100%;
+  border-radius: 50%;
+  background:
+    repeating-radial-gradient(circle at center,
+      #555555 0px, #0a0806 1px,
+      #161210 1px, #161210 2px),
+    radial-gradient(circle at center, #1a1410, #050403);
+  box-shadow:
+    inset 0 0 0 1px #000,
+    0 4px 12px rgba(0,0,0,0.5);
+}
+.record__grooves {
+  position: absolute;
+  inset: 8%;
+  border-radius: 50%;
+  background:
+    repeating-radial-gradient(circle at center,
+      transparent 0px, transparent 2px,
+      rgba(255,255,255,0.03) 2px, rgba(255,255,255,0.03) 3px);
+}
+.record__label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 36%;
+  height: 36%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 35%, var(--amber) 0%, var(--amber-deep) 70%, #5a2808 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.4), inset 0 0 12px rgba(0,0,0,0.3);
+}
+.record__label::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8%;
+  height: 8%;
+  border-radius: 50%;
+  background: var(--ink);
+}
+.record__label span {
+  font-family: 'DM Mono', monospace;
+  font-size: 7px;
+  letter-spacing: 0.15em;
+  color: var(--cream);
+  font-weight: 500;
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+}
+/* BODY */
+.entry__body {
+  padding-top: 4px;
+}
+.entry__meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  margin-bottom: 16px;
+}
+.entry__dot { color: var(--amber-deep); }
+.entry__artist {
+  font-family: 'Gloock', serif;
+  font-weight: 400;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-bottom: 8px;
+}
+.entry__title {
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: clamp(1.25rem, 2.2vw, 1.65rem);
+  line-height: 1.2;
+  color: var(--amber-deep);
+  margin-bottom: 24px;
+}
+
+
+.entry__note {
+  font-family: 'Fraunces', serif;
+  font-size: 1.02rem;
+  color: var(--ink-soft);
+  max-width: 42em;
+  padding-left: 18px;
+  border-left: 2px solid var(--amber-deep);
+  margin-bottom: 20px;
+}
+.entry[data-side="B"] .entry__note {
+  border-left: none;
+  border-right: 2px solid var(--amber-deep);
+  padding-left: 0;
+  padding-right: 18px;
+  margin-left: auto;
+}
+
+.entry__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 8px;
+}
+.entry__link {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7em;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--paper);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8em;
+  padding: 0.3em 0.9em;
+  border: 1px solid var(--paper);
+  background: var(--ink);
+  transition: all 0.25s ease;
+}
+.sleeve__art .entry__link {
+  position: absolute;
+  bottom: 0.9em;
+  left: 0.9em;
+  z-index: 4;
+}
+.entry__link:hover {
+  background: var(--paper);
+  color: var(--ink);
+  border-color: var(--ink);
+}
+.entry__link svg {
+  transition: transform 0.25s ease;
+}
+.entry__link:hover svg {
+  transform: translate(2px, -2px);
+}
+.entry__catno {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+}
+
+/* =============== CONNECTIONS =============== */
+.entry__connections {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.sparked {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 14px;
+  border: 1px solid var(--ink-soft);
+  background: var(--paper);
+  text-decoration: none;
+  color: inherit;
+  width: fit-content;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+.sparked:hover {
+  border-color: var(--amber-deep);
+  background: rgba(184,97,43,0.06);
+}
+.sparked--event {
+  cursor: default;
+  background: var(--paper);
+  border-color: var(--ink-mute);
+  border-style: dashed;
+}
+.sparked--event:hover {
+  border-color: var(--ink-mute);
+  border-style: dashed;
+  background: var(--paper);
+}
+.sparked--to { 
+  cursor: pointer;
+  align-self: flex-start; 
+}
+.entry[data-side="B"] .sparked { 
+  align-self: flex-end;
+}
+.sparked__label {
+  font-family: 'DM Mono', monospace;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--ink-mute);
+}
+.sparked__arrow {
+  font-size: 0.9rem;
+  color: var(--amber-deep);
+  line-height: 1;
+}
+.sparked__target {
+  font-family: 'Fraunces', serif;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--ink);
+}
+.sparked:hover .sparked__target { 
+  color: var(--amber-deep);
+}
+.sparked__event {
+  font-family: 'Fraunces', serif;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+/* =============== COLOPHON =============== */
+.colophon {
+  position: relative;
+  z-index: 2;
+  max-width: 1400px;
+  margin: 96px auto 0;
+  padding: 56px 48px 72px;
+  border-top: 2px solid var(--ink);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+}
+.colophon__title {
+  font-family: 'Gloock', serif;
+  font-size: 2rem;
+  line-height: 1;
+  margin-bottom: 18px;
+  color: var(--ink);
+}
+.colophon__text {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  color: var(--ink-soft);
+  line-height: 1.6;
+}
+.colophon__meta {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  line-height: 2;
+}
+.colophon__meta strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+.colophon__sep {
+  width: 60px;
+  height: 2px;
+  background: var(--amber-deep);
+  margin: 16px 0;
+}
+
+/* =============== RESPONSIVE =============== */
+/* Intermediate desktop sizes: shrink the sleeve so the vinyl's slide-out on
+   hover stays inside the rail column instead of bleeding into the body text. */
+@media (min-width: 901px) and (max-width: 1200px) {
+  .entry {
+    gap: 32px;
+  }
+  .sleeve { width: 260px; }
+  .entry__num { font-size: 2.6rem; padding: 8px 12px 5px; }
+}
+
+@media (max-width: 900px) {
+  .masthead { padding: 24px 24px 20px; }
+  .masthead__top { font-size: 9px; letter-spacing: 0.1em; }
+  .intro, .stats, .entries, .colophon { padding-left: 24px; padding-right: 24px; }
+  .intro { padding-top: 64px; padding-bottom: 48px; }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stat:nth-child(2) { border-right: none; }
+  .stat:nth-child(1), .stat:nth-child(2) { border-bottom: 1px solid var(--ink-soft); }
+  .colophon { grid-template-columns: 1fr; gap: 32px; }
+
+  .entry, .entry[data-side="B"] {
+    grid-template-columns: 1fr;
+    row-gap: 28px;
+    padding: 40px 0;
+  }
+  .entry__col, .entry[data-side="A"] .entry__col, .entry[data-side="B"] .entry__col {
+    order: 1;
+    /* sleeve + number form a single visual unit — sleeve width, number size,
+       and the gap between them are all em units of this font-size, so the
+       whole unit scales uniformly on narrow screens. */
+    font-size: clamp(8px, 2.4vw, 18px);
+  }
+  .entry__col .entry__sleeve { margin-right: 5em; }
+  .entry__body, .entry[data-side="A"] .entry__body, .entry[data-side="B"] .entry__body {
+    order: 2;
+    text-align: left;
+  }
+  .entry[data-side="B"] .entry__rail {
+    text-align: left;
+    align-items: flex-start;
+  }
+  .entry[data-side="B"] .entry__num { align-self: flex-start; }
+  .entry[data-side="B"] .entry__meta { justify-content: flex-start; }
+  .entry[data-side="B"] .entry__stamp { align-self: flex-start; }
+  .entry[data-side="B"] .entry__note {
+    border-left: 2px solid var(--amber-deep);
+    border-right: none;
+    padding-left: 18px;
+    padding-right: 0;
+    margin-left: 0;
+  }
+  .entry[data-side="B"] .entry__footer { flex-direction: row; }
+  .entry__num {
+    font-size: 2.2em;
+    padding: 0.21em 0.35em 0.14em;
+  }
+  .sleeve { width: 22em; }
+  .masthead__sub { flex-direction: column; align-items: flex-start; }
+  .masthead__issue { text-align: left; }
+  .masthead__chain { letter-spacing: 0.08em; font-size: 9px; }
+}
+
+/* =============== FADE-IN =============== */
+@keyframes entry-fade-in {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.entry {
+  animation: entry-fade-in 1s cubic-bezier(.2,.8,.2,1) both;
+  animation-timeline: view();
+  animation-range: entry 0% entry 100%;
+}
+@supports not (animation-timeline: view()) {
+  .entry { opacity: 1; transform: none; animation: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .entry { animation: none; opacity: 1; transform: none; }
+}
+
+/* =============== JUMP-BUTTON VISIBILITY =============== */
+@keyframes show-top-btn {
+  0%   { opacity: 0; pointer-events: none; }
+  1%   { opacity: 0.5; pointer-events: auto; }
+  100% { opacity: 0.5; pointer-events: auto; }
+}
+@keyframes show-bot-btn {
+  0%   { opacity: 0.5; pointer-events: auto; }
+  99%  { opacity: 0.5; pointer-events: auto; }
+  100% { opacity: 0; pointer-events: none; }
+}
+#timelineJumpTop {
+  animation: show-top-btn 1s both;
+  animation-timeline: scroll();
+}
+#timelineJumpBottom {
+  animation: show-bot-btn 1s both;
+  animation-timeline: scroll();
+}
+</style>
+</head>
+<body>
+
+<div class="page-wrap">
+
+<nav class="timeline" id="timeline" aria-label="Timeline">
+  <div class="timeline__line"></div>
+  <a class="timeline__nav timeline__nav--up" id="timelineJumpTop" href="#" aria-label="Jump to start">
+    <span class="timeline__nav-marker" aria-hidden="true">
+      <svg viewBox="0 0 16 16" width="12" height="12"><path d="M3 10l5-5 5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+  </a>
+  <div class="timeline__viewport">
+  <div class="timeline__track" id="timelineTrack">
+    <!--example-->
+    <a class="timeline__month" href="#entry-01" title="AUGUST 2024"><div class="timeline__label"><span class="timeline__year">2024</span><span class="timeline__mon">AUG</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month" href="#entry-04" title="SEPTEMBER 2024"><div class="timeline__label"><span class="timeline__year">2024</span><span class="timeline__mon">SEP</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month" href="#entry-07" title="OCTOBER 2024"><div class="timeline__label"><span class="timeline__year">2024</span><span class="timeline__mon">OCT</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month" href="#entry-09" title="NOVEMBER 2024"><div class="timeline__label"><span class="timeline__year">2024</span><span class="timeline__mon">NOV</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month is-year-start" href="#entry-11" title="JANUARY 2025"><div class="timeline__label"><span class="timeline__year">2025</span><span class="timeline__mon">JAN</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month" href="#entry-13" title="FEBRUARY 2025"><div class="timeline__label"><span class="timeline__year">2025</span><span class="timeline__mon">FEB</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month" href="#entry-14" title="MARCH 2025"><div class="timeline__label"><span class="timeline__year">2025</span><span class="timeline__mon">MAR</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month" href="#entry-18" title="MAY 2025"><div class="timeline__label"><span class="timeline__year">2025</span><span class="timeline__mon">MAY</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month" href="#entry-21" title="JUNE 2025"><div class="timeline__label"><span class="timeline__year">2025</span><span class="timeline__mon">JUN</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month" href="#entry-23" title="JULY 2025"><div class="timeline__label"><span class="timeline__year">2025</span><span class="timeline__mon">JUL</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month" href="#entry-27" title="SEPTEMBER 2025"><div class="timeline__label"><span class="timeline__year">2025</span><span class="timeline__mon">SEP</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month" href="#entry-30" title="OCTOBER 2025"><div class="timeline__label"><span class="timeline__year">2025</span><span class="timeline__mon">OCT</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month" href="#entry-33" title="NOVEMBER 2025"><div class="timeline__label"><span class="timeline__year">2025</span><span class="timeline__mon">NOV</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month" href="#entry-34" title="DECEMBER 2025"><div class="timeline__label"><span class="timeline__year">2025</span><span class="timeline__mon">DEC</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month is-year-start" href="#entry-36" title="FEBRUARY 2026"><div class="timeline__label"><span class="timeline__year">2026</span><span class="timeline__mon">FEB</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month" href="#entry-38" title="MARCH 2026"><div class="timeline__label"><span class="timeline__year">2026</span><span class="timeline__mon">MAR</span></div><div class="timeline__dot"></div></a>
+    <a class="timeline__month" href="#entry-39" title="APRIL 2026"><div class="timeline__label"><span class="timeline__year">2026</span><span class="timeline__mon">APR</span></div><div class="timeline__dot"></div></a>
+    <!--/example-->
+    <!--template_timeline-->
+    <a class="timeline__month {{YEAR_START_CLASS}}" href="#entry-{{NUM}}" title="{{MONTH_YEAR}}"><div class="timeline__label"><span class="timeline__year">{{YEAR}}</span><span class="timeline__mon">{{MON}}</span></div><div class="timeline__dot"></div></a>
+    <!--/template_timeline-->
+  </div>
+  </div>
+  <a class="timeline__nav timeline__nav--down" id="timelineJumpBottom" href="#page-bottom" aria-label="Jump to end">
+    <span class="timeline__nav-marker" aria-hidden="true">
+      <svg viewBox="0 0 16 16" width="12" height="12"><path d="M3 6l5 5 5-5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </span>
+  </a>
+</nav>
+<div class="main-content">
+<header class="masthead">
+  <div class="masthead__top">
+    <span>The Vinyl Journal</span>
+    <span>EST. 2024 · POZNAŃ</span>
+    <span>ISSUE NO. {{ISSUE_NO}}</span>
+  </div>
+  <h1 class="masthead__title">My Musical <em>Journey!</em></h1>
+  <div class="masthead__sub">
+    <div>
+      <p class="masthead__tagline">{{TAGLINE}}</p>
+      <p class="masthead__chain">{{CHAIN}}</p>
+    </div>
+  </div>
+</header>
+
+<section class="intro">
+  <div class="intro__eyebrow">Preface</div>
+  <h2 class="intro__headline">{{HEADLINE}}</h2>
+  <div class="intro__body">
+      {{BODY}}
+      <div class="intro__signoff">{{SIGNOFF}}</div>
+      <div class="intro__signature">— Dymitr Cebruk</div>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="stat">
+    <span class="stat__label">Records Collected</span>
+    <span class="stat__value">{{RC}}</span>
+    <span class="stat__detail">and counting, one sleeve at a time</span>
+  </div>
+  <div class="stat">
+    <span class="stat__label">On Track</span>
+    <span class="stat__value">{{OT}}</span>
+    <span class="stat__detail">{{FROM_TO}}</span>
+  </div>
+  <div class="stat">
+    <span class="stat__label">Found Their Way Home From</span>
+    <span class="stat__value">{{CC}}<span> countries</span></span>
+    <span class="stat__detail">{{COUNTRIES}}</span>
+  </div>
+  <div class="stat">
+    <span class="stat__label">Most Collected Artist</span>
+    <span class="stat__value" style="font-size:1.5rem;font-family:'Fraunces',serif;font-style:italic;line-height: 1.7;">{{MC_ARTIST}}</span>
+    <span class="stat__detail">{{MC_ARTIST_RC}} records — the name that keeps coming back</span>
+  </div>
+</section>
+
+<main class="entries">
+    <!--example-->
+
+    <article class="entry month-marker" id="entry-01" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/86BxxvAhY9qeq3we5G3nB5aCTWXAaNQU_1ef9q50s18/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMzQ4/ODQyLTE3MTMwMTM0/NzctNzA1OS5qcGVn.jpeg" alt="Cover of Linkin Park — Papercuts" />
+            <a class="entry__link" href="https://www.discogs.com/release/30348920" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">01</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">06 AUG 2024</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 01/39</span>
+        </div>
+        <h2 class="entry__artist">Linkin Park</h2>
+        <h3 class="entry__title">Papercuts</h3>
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Previnyl</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+        <div class="entry__note">It starts with Linkin Park. One of my favorite bands, ever since I first heard &quot;In The End.&quot; They&#x27;re the kind of band you fall for on the first song. Each new album from Minutes to Midnight always sounded like a new band — but the band you loved from the very first listen. Their experiments with different styles always felt awesome. And everything changes — the world changes, you change, the band and their music change — but you still love it. Isn&#x27;t that something? This compilation album was almost predefined as the first item in my collection.</div>
+        <div class="entry__connections">
+            <a class="sparked sparked--to" href="#entry-04">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 04 — Mike Shinoda</span>
+            </a>
+            <a class="sparked sparked--to" href="#entry-08">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 08 — Linkin Park</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-02" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/PeIYRYPZ0CdKnACvQlwUTNPhcvQgc05sA2Kcsw4J2GM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NzQy/MzQtMTQ4OTMyMzMy/NS05Mzc2LmpwZWc.jpeg" alt="Cover of Queen — A Night At The Opera" />
+            <a class="entry__link" href="https://www.discogs.com/release/2170885" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">02</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">12 AUG 2024</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Gdańsk, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 02/39</span>
+        </div>
+        <h2 class="entry__artist">Queen</h2>
+        <h3 class="entry__title">A Night At The Opera</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Bohemian Rhapsody movie</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-03" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/gN8-XZX9Mj08bV_x0-41ke8Yt547aOYgk5LZXtJcmyk/rs:fit/g:sm/q:90/h:578/w:570/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY3NjYz/MS0xMzcyNzA4Njg4/LTg5ODAuanBlZw.jpeg" alt="Cover of The Rolling Stones — Undercover" />
+            <a class="entry__link" href="https://www.discogs.com/release/583715" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">03</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">31 AUG 2024</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Poznań, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 03/39</span>
+        </div>
+        <h2 class="entry__artist">The Rolling Stones</h2>
+        <h3 class="entry__title">Undercover</h3>
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Blindbuy</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+        <div class="entry__note">One of the cases when I bought a record blindly in a local record store called &quot;Wino i Winyle&quot; (Vine and Vinyls), never listened to The Rolling Stones before, and after listening I realized it&#x27;s not my taste — but there are a couple of songs I liked after some time.</div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-04" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/vOEzqtFBeQpH4iYURDyiM8Xw3kUkP3kkwh9xG7vOWS0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwOTYy/NjMyLTE3MTg3MTI4/MDUtNTMxNy5qcGVn.jpeg" alt="Cover of Mike Shinoda — Post Traumatic" />
+            <a class="entry__link" href="https://www.discogs.com/release/12443809" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">04</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">01 SEP 2024</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 04/39</span>
+        </div>
+        <h2 class="entry__artist">Mike Shinoda</h2>
+        <h3 class="entry__title">Post Traumatic</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-01">
+          
+          <span class="sparked__target">№ 01 — Linkin Park</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-05" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/_Of_mb9-Ej79e-f_cCuXfz2Tly14qVBSS3HlrSIIl_o/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1ODc4/MTQtMTMzNjM5ODI3/MS5qcGVn.jpeg" alt="Cover of Scorpions — Savage Amusement" />
+            <a class="entry__link" href="https://www.discogs.com/release/1423461" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">05</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">07 SEP 2024</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Poznań, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 05/39</span>
+        </div>
+        <h2 class="entry__artist">Scorpions</h2>
+        <h3 class="entry__title">Savage Amusement</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Previnyl</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div>
+            <a class="sparked sparked--to" href="#entry-09">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 09 — Scorpions</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-06" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/Rd7rfe5MwOvyoAYcu9WvzWUAj674uKbiw1bv7DtIOIk/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTkx/NDI5LTE1Mjg0NTI1/MTUtNDYyNC5qcGVn.jpeg" alt="Cover of AC/DC — Back in Black" />
+            <a class="entry__link" href="https://www.discogs.com/release/1949857" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">06</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">21 SEP 2024</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Poznań, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 06/39</span>
+        </div>
+        <h2 class="entry__artist">AC/DC</h2>
+        <h3 class="entry__title">Back in Black</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Previnyl</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-07" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/9euqCOrWjkNc_7FwNdZR3KyOB68W_KBpIHMuwV_ZcS8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1OTQ3/OTM4LTE2MDA3MjY1/NzktNjk5My5qcGVn.jpeg" alt="Cover of ZZ Top — Eliminator" />
+            <a class="entry__link" href="https://www.discogs.com/release/4825085" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">07</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">10 OCT 2024</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Prague, Czech Republic</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 07/39</span>
+        </div>
+        <h2 class="entry__artist">ZZ Top</h2>
+        <h3 class="entry__title">Eliminator</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Previnyl</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-08" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/qfEfC5R6F4YRViiU80j_fyX5J8z1fOTGTX3BL-EErmI/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2MDEz/Njk3LTE2MDE4OTE4/MTQtODQ4My5qcGVn.jpeg" alt="Cover of Linkin Park — Living Things" />
+            <a class="entry__link" href="https://www.discogs.com/release/16013697" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">08</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">11 OCT 2024</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Prague, Czech Republic</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 08/39</span>
+        </div>
+        <h2 class="entry__artist">Linkin Park</h2>
+        <h3 class="entry__title">Living Things</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-01">
+          
+          <span class="sparked__target">№ 01 — Linkin Park</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a>
+            <a class="sparked sparked--to" href="#entry-10">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 10 — Linkin Park</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-09" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/mY2odQqUtjUEzOYyuyc1v0S-2A6qTA-Gc4WWcYWiSJ4/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ1OTA4/MS0xNTkxMjgyODE2/LTgwNjYuanBlZw.jpeg" alt="Cover of Scorpions — Lovedrive" />
+            <a class="entry__link" href="https://www.discogs.com/release/459081" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">09</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">16 NOV 2024</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Poznań, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 09/39</span>
+        </div>
+        <h2 class="entry__artist">Scorpions</h2>
+        <h3 class="entry__title">Lovedrive</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-05">
+          
+          <span class="sparked__target">№ 05 — Scorpions</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a>
+            <a class="sparked sparked--to" href="#entry-12">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 12 — Scorpions</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-10" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/8TdUpdnXn2ra7zl47RwItAbwQB0kKE3a39GhV8ralf8/rs:fit/g:sm/q:90/h:591/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyMjk5/MjQ3LTE3MzE4NzAz/NzUtODUyMi5qcGVn.jpeg" alt="Cover of Linkin Park — From Zero" />
+            <a class="entry__link" href="https://www.discogs.com/release/32285475" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">10</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">27 NOV 2024</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, USA</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 10/39</span>
+        </div>
+        <h2 class="entry__artist">Linkin Park</h2>
+        <h3 class="entry__title">From Zero</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-08">
+          
+          <span class="sparked__target">№ 08 — Linkin Park</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a>
+            <a class="sparked sparked--to" href="#entry-11">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 11 — Linkin Park</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-11" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/gv7-FM90IPRg8sEICVLIvuEo6KxOfVpC3mDb3PL3G8c/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxMzE1/NTEyLTE3MjE5MjEz/ODAtMTY3Ny5qcGVn.jpeg" alt="Cover of Linkin Park — The Hunting Party" />
+            <a class="entry__link" href="https://www.discogs.com/release/6204350" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">11</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">13 JAN 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 11/39</span>
+        </div>
+        <h2 class="entry__artist">Linkin Park</h2>
+        <h3 class="entry__title">The Hunting Party</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-10">
+          
+          <span class="sparked__target">№ 10 — Linkin Park</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a>
+            <a class="sparked sparked--to" href="#entry-19">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 19 — Dead Sara</span>
+            </a>
+            <a class="sparked sparked--to" href="#entry-25">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 25 — Linkin Park</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-12" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/_nVjDujRkgo3EA239W5nMj4JaOmnuDjd7-Uw0pU7IZM/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMTg1/NTE5LTE1MTE0NTcw/MzEtMTkzMC5qcGVn.jpeg" alt="Cover of Scorpions — Born To Touch Your Feelings — Best Of Rock Ballads" />
+            <a class="entry__link" href="https://www.discogs.com/release/11185519" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">12</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">21 JAN 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, USA</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 12/39</span>
+        </div>
+        <h2 class="entry__artist">Scorpions</h2>
+        <h3 class="entry__title">Born To Touch Your Feelings — Best Of Rock Ballads</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-09">
+          
+          <span class="sparked__target">№ 09 — Scorpions</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a>
+            <a class="sparked sparked--to" href="#entry-24">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 24 — Scorpions</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-13" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/y1nxHYS8slVGU02k7stunRMMHDUBaF4zM4saYnvM2D8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg2Mzc0/NjQtMTU2MTY1NjIz/Ny0xMzMyLmpwZWc.jpeg" alt="Cover of Marianne Faithfull — Broken English" />
+            <a class="entry__link" href="https://www.discogs.com/release/496471" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">13</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">09 FEB 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Poznań, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 13/39</span>
+        </div>
+        <h2 class="entry__artist">Marianne Faithfull</h2>
+        <h3 class="entry__title">Broken English</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Twitter</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div>
+            <a class="sparked sparked--to" href="#entry-14">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 14 — Marianne Faithfull</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-14" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/z-XeG-ihbbf8G2jDJniTC0JMlOFlUudpt7ICAJZ0skk/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY2MjEy/ODYtMTQyMzI2MjU3/OC0yNjg5LmpwZWc.jpeg" alt="Cover of Marianne Faithfull — A Child&#x27;s Adventure" />
+            <a class="entry__link" href="https://www.discogs.com/release/1897484" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">14</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">09 MAR 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Poznań, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 14/39</span>
+        </div>
+        <h2 class="entry__artist">Marianne Faithfull</h2>
+        <h3 class="entry__title">A Child&#x27;s Adventure</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-13">
+          
+          <span class="sparked__target">№ 13 — Marianne Faithfull</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-15" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/d0rsenX1Ombm4_krIBPiEnk26sRuW_8YSxByagYqfPY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMzcy/NjQ0LTE0OTYxNzU2/MzAtNTgzOC5qcGVn.jpeg" alt="Cover of The Beatles — Yellow Submarine" />
+            <a class="entry__link" href="https://www.discogs.com/release/10372644" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">15</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">09 MAR 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Poznań, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 15/39</span>
+        </div>
+        <h2 class="entry__artist">The Beatles</h2>
+        <h3 class="entry__title">Yellow Submarine</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Previnyl</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-16" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/UtJScQz0GJsvZUosUVGRFXDTwi_x6n_y1GuoApqkji0/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxMzY2/NTYtMTQxMTk4Njkw/Ni00ODg0LmpwZWc.jpeg" alt="Cover of The Police — Synchronicity" />
+            <a class="entry__link" href="https://www.discogs.com/release/367750" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">16</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">30 MAR 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Poznań, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 16/39</span>
+        </div>
+        <h2 class="entry__artist">The Police</h2>
+        <h3 class="entry__title">Synchronicity</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Previnyl</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-17" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/x4U-7eccOTqv225fKQEmVKgudi0jZhIhXONmwgJpaTw/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg4MDM5/NTktMTQ2OTExMTY3/MS01NTk3LmpwZWc.jpeg" alt="Cover of Nina Simone — Pastel Blues" />
+            <a class="entry__link" href="https://www.discogs.com/release/16206941" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">17</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">30 MAR 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Poznań, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 17/39</span>
+        </div>
+        <h2 class="entry__artist">Nina Simone</h2>
+        <h3 class="entry__title">Pastel Blues</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Video game</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-18" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/BLa9aGVZboz0RuI7-HT5Fx6kgpZVdD6qBmztd9sZJIc/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MTU4/OTktMTIxNzgwNzE0/MC5qcGVn.jpeg" alt="Cover of Deep Purple — When We Rock, We Rock And When We Roll, We Roll" />
+            <a class="entry__link" href="https://www.discogs.com/release/1415899" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">18</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">02 MAY 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Wrocław, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 18/39</span>
+        </div>
+        <h2 class="entry__artist">Deep Purple</h2>
+        <h3 class="entry__title">When We Rock, We Rock And When We Roll, We Roll</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Video game</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-19" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/u-ye8WytezwvjBcRyP98FxBzpoTa5QLGOgrHJmquyTI/rs:fit/g:sm/q:90/h:498/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzNjcy/MDcyLTE3NDQ0MzU2/ODMtNDE5NS5qcGVn.jpeg" alt="Cover of Dead Sara — Ain&#x27;t It Tragic" />
+            <a class="entry__link" href="https://www.discogs.com/release/33672072" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">19</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">05 MAY 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Denmark</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 19/39</span>
+        </div>
+        <h2 class="entry__artist">Dead Sara</h2>
+        <h3 class="entry__title">Ain&#x27;t It Tragic</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-11">
+          
+          <span class="sparked__target">№ 11 — Linkin Park</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-20" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/FXsQgG6kCx42fedJP7pF33v_1W-eycy0vKyELNBUDH0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0MDgx/NDE3LTE3NDgxOTc0/NjktNzQ1Ny5qcGVn.jpeg" alt="Cover of Sanah — Dwoje Ludzieńków" />
+            <a class="entry__link" href="https://www.discogs.com/release/34081417" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">20</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">27 MAY 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 20/39</span>
+        </div>
+        <h2 class="entry__artist">Sanah</h2>
+        <h3 class="entry__title">Dwoje Ludzieńków</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Poland</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div>
+            <a class="sparked sparked--to" href="#entry-22">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 22 — Sanah</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-21" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/AoatClzSSR2byFFiQJ0yItBeeq91D42siK-HbfPWTJA/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NTIx/NzA5LTE2OTY2NzIw/MzYtMzAxMy5qcGVn.jpeg" alt="Cover of KSU — Pod Prąd" />
+            <a class="entry__link" href="https://www.discogs.com/release/1017621" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">21</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">01 JUN 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 21/39</span>
+        </div>
+        <h2 class="entry__artist">KSU</h2>
+        <h3 class="entry__title">Pod Prąd</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">European Solidarity Centre</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-22" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/OV-5d2ibdWf_e-NgRAqpyQrUMQlO8o7Krnz1SpXztds/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1Nzkz/OTUwLTE2NzQyNDM4/MTItMzg0OC5qcGVn.jpeg" alt="Cover of Sanah — Sanah Śpiewa Poezyje" />
+            <a class="entry__link" href="https://www.discogs.com/release/25793950" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">22</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">01 JUN 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 22/39</span>
+        </div>
+        <h2 class="entry__artist">Sanah</h2>
+        <h3 class="entry__title">Sanah Śpiewa Poezyje</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-20">
+          
+          <span class="sparked__target">№ 20 — Sanah</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a>
+            <a class="sparked sparked--to" href="#entry-38">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 38 — Katarzyna Nosowska</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-23" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/wA-4psu7yaEMkufO-I3nXXhsk7HQYUztnFnLi0sz3Pg/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExMjM3/NDEwLTE1MTQ1MDU2/ODYtODE3My5qcGVn.jpeg" alt="Cover of Rammstein — Reise, Reise" />
+            <a class="entry__link" href="https://www.discogs.com/release/11237410" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">23</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">05 JUL 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Berlin, Germany</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 23/39</span>
+        </div>
+        <h2 class="entry__artist">Rammstein</h2>
+        <h3 class="entry__title">Reise, Reise</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Previnyl</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-24" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/tv9ZFILxnD_ZHXACUFY1Me2riI2xvEkTLkGHwqurYWI/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMTMw/OTgzLTE1NDA4Mzc0/MzUtODQyOS5qcGVn.jpeg" alt="Cover of Scorpions — Acoustica" />
+            <a class="entry__link" href="https://www.discogs.com/release/10130983" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">24</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">05 JUL 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Berlin, Germany</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 24/39</span>
+        </div>
+        <h2 class="entry__artist">Scorpions</h2>
+        <h3 class="entry__title">Acoustica</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-12">
+          
+          <span class="sparked__target">№ 12 — Scorpions</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-25" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/4MUtgbyOfne3Yhs3DtYDew1x1ANc7bLrYI-kHtplQ4Y/rs:fit/g:sm/q:90/h:600/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MTAx/NzYzLTE2NzM5Nzgx/NzMtNTU0MC5qcGVn.jpeg" alt="Cover of Linkin Park — Minutes To Midnight" />
+            <a class="entry__link" href="https://www.discogs.com/release/16098379" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">25</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">14 JUL 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 25/39</span>
+        </div>
+        <h2 class="entry__artist">Linkin Park</h2>
+        <h3 class="entry__title">Minutes To Midnight</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-11">
+          
+          <span class="sparked__target">№ 11 — Linkin Park</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a>
+            <a class="sparked sparked--to" href="#entry-30">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 30 — Linkin Park</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-26" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/6HFRB6gfExbUQz5C1RVQLZ6TdoCfmoe8qCp2d-Yaz_k/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4Nzg3/ODQtMTY3NDMwMDg3/OS01ODQ1LmpwZWc.jpeg" alt="Cover of John Denver — Voice Of America (Welt-Erfolge)" />
+            <a class="entry__link" href="https://www.discogs.com/release/3167173" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">26</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">23 JUL 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Romania</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 26/39</span>
+        </div>
+        <h2 class="entry__artist">John Denver</h2>
+        <h3 class="entry__title">Voice Of America (Welt-Erfolge)</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Previnyl</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-27" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/yGJIhf5pQ8UZnBUFP3V3jTQnHj6D1N-gNX3pg0zza3U/rs:fit/g:sm/q:90/h:599/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NTA4/NzI4LTE2Nzk1MTM0/MTQtOTUxNi5qcGVn.jpeg" alt="Cover of System Of A Down — Toxicity" />
+            <a class="entry__link" href="https://www.discogs.com/release/12642678" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">27</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">01 SEP 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 27/39</span>
+        </div>
+        <h2 class="entry__artist">System Of A Down</h2>
+        <h3 class="entry__title">Toxicity</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Previnyl</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-28" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/rJbQaLFb7ozjkKF6WF5E2wv50hwsmhSKE2dlSKygj6E/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODI2/ODkxLTE3NTUyNzkx/MjktNTQ0NC5qcGVn.jpeg" alt="Cover of Mono Inc. — Darkness" />
+            <a class="entry__link" href="https://www.discogs.com/release/34826858" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">28</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">02 SEP 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Germany</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 28/39</span>
+        </div>
+        <h2 class="entry__artist">Mono Inc.</h2>
+        <h3 class="entry__title">Darkness</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Advertisement</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-29" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/Xcziya-uPJQn65ez_ZZhnaiwCApEgLlWiOvn7bC45-o/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2ODA1/Ny0xNTg0OTczMzU3/LTM3NTcuanBlZw.jpeg" alt="Cover of Black Sabbath — Attention! Black Sabbath Volume One" />
+            <a class="entry__link" href="https://www.discogs.com/release/368057" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">29</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">30 SEP 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Poznań, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 29/39</span>
+        </div>
+        <h2 class="entry__artist">Black Sabbath</h2>
+        <h3 class="entry__title">Attention! Black Sabbath Volume One</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Ozzy Osbourne&#x27;s death</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-30" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/qGCJszjfbnBywq_io1GxGslKk5QaWhvlHxfBecutlK0/rs:fit/g:sm/q:90/h:600/w:588/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE2NTgw/NTY4LTE2MTYxMDc0/MTMtMTE4Ny5qcGVn.jpeg" alt="Cover of Linkin Park — One More Light" />
+            <a class="entry__link" href="https://www.discogs.com/release/10306222" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">30</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">19 OCT 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 30/39</span>
+        </div>
+        <h2 class="entry__artist">Linkin Park</h2>
+        <h3 class="entry__title">One More Light</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-25">
+          
+          <span class="sparked__target">№ 25 — Linkin Park</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-31" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/Y3vRptzVJeyp5S4ZF_jny9HedAWeLqTn7yRTnhty0Vs/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NDAz/MzAxLTE3NjA3MzEz/NzMtOTg4NS5qcGVn.jpeg" alt="Cover of Sabaton — Legends" />
+            <a class="entry__link" href="https://www.discogs.com/release/35392681" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">31</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">22 OCT 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Germany</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 31/39</span>
+        </div>
+        <h2 class="entry__artist">Sabaton</h2>
+        <h3 class="entry__title">Legends</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Advertisement</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-32" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/qMLTgp4JMPdHnPocPKccaDhQJ1HbUIOyiFqlhV4ezjQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkyMzA2/NTItMTcyNDI3NzM0/OS03MzkzLmpwZWc.jpeg" alt="Cover of Original New York Cast Of Lazarus — Lazarus" />
+            <a class="entry__link" href="https://www.discogs.com/release/9230652" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">32</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">23 OCT 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Denmark</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 32/39</span>
+        </div>
+        <h2 class="entry__artist">Original New York Cast Of Lazarus</h2>
+        <h3 class="entry__title">Lazarus</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Michael C. Hall</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div>
+            <a class="sparked sparked--to" href="#entry-33">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 33 — David Bowie</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-33" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/K3gFP9xhzgyDc8n0fFTYy6qhJkUVitxyKHG4YEuOFno/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMyNDk2/MzIxLTE3MzM1NDM5/NjAtNTc4NS5qcGVn.jpeg" alt="Cover of David Bowie — The Rise And Fall Of Ziggy Stardust And The Spiders From Mars" />
+            <a class="entry__link" href="https://www.discogs.com/release/8162188" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">33</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">14 NOV 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 33/39</span>
+        </div>
+        <h2 class="entry__artist">David Bowie</h2>
+        <h3 class="entry__title">The Rise And Fall Of Ziggy Stardust And The Spiders From Mars</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-32">
+          
+          <span class="sparked__target">№ 32 — Original New York Cast Of Lazarus</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a>
+            <a class="sparked sparked--to" href="#entry-36">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 36 — David Bowie</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-34" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/BkaYDYitoAMWsdx0mz_BoKXX_SlRYywKDNO_REkaZWM/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1MDQ5/NDA0LTE2NjgxMDQw/MjAtNjA3OS5qcGVn.jpeg" alt="Cover of Stranger Things 4 — Soundtrack From The Netflix Series" />
+            <a class="entry__link" href="https://www.discogs.com/release/25049404" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">34</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">09 DEC 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 34/39</span>
+        </div>
+        <h2 class="entry__artist">Stranger Things 4</h2>
+        <h3 class="entry__title">Soundtrack From The Netflix Series</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Stranger Things (Netflix series)</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div>
+            <a class="sparked sparked--to" href="#entry-35">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 35 — Kate Bush</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-35" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/Q5ff8RLDjCctXg_yQH1rCKoJ99js9Axd6dmNBiWdVDI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE5NzE2/My0xNzY4MDUyNjg1/LTI1MTYuanBlZw.jpeg" alt="Cover of Kate Bush — Hounds Of Love" />
+            <a class="entry__link" href="https://www.discogs.com/release/197163" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">35</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">23 DEC 2025</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Poznań, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 35/39</span>
+        </div>
+        <h2 class="entry__artist">Kate Bush</h2>
+        <h3 class="entry__title">Hounds Of Love</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-34">
+          
+          <span class="sparked__target">№ 34 — Stranger Things 4</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-36" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/k_6FCxGqDZLlwGFhhQbh_1mC0XRnqi2OQZr16GMWW0o/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ0MTU4/MzctMTM2NDI5ODk5/MS02MjQ4LmpwZWc.jpeg" alt="Cover of David Bowie — The Next Day" />
+            <a class="entry__link" href="https://www.discogs.com/release/4415837" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">36</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">08 FEB 2026</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Spain</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 36/39</span>
+        </div>
+        <h2 class="entry__artist">David Bowie</h2>
+        <h3 class="entry__title">The Next Day</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-33">
+          
+          <span class="sparked__target">№ 33 — David Bowie</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a>
+            <a class="sparked sparked--to" href="#entry-39">
+              <span class="sparked__label">Led to</span>
+              <span class="sparked__arrow">→</span><span class="sparked__target">№ 39 — David Bowie</span>
+            </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry" id="entry-37" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/f6e9M0441q_vtuNG9uddkTKRPUdh9mZY6_9iGu7wtFs/rs:fit/g:sm/q:90/h:600/w:595/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1NjUw/MDUxLTE3NjMxMzI4/NjUtNDMxNC5qcGVn.jpeg" alt="Cover of The Cranberries — MTV Unplugged" />
+            <a class="entry__link" href="https://www.discogs.com/release/35650051" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">37</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">23 FEB 2026</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 37/39</span>
+        </div>
+        <h2 class="entry__artist">The Cranberries</h2>
+        <h3 class="entry__title">MTV Unplugged</h3>
+        
+        <div class="entry__connections">
+        <div class="sparked sparked--event">
+          <span class="sparked__event">Advertisement</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-38" data-side="B">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/8EFdcsB_JagBfJbUevUD4vYeRkDHzFEhnwrvF3slusI/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NjUx/NTk0LTE2OTc4MTk0/MzctMTYxNy5wbmc.jpeg" alt="Cover of Katarzyna Nosowska — Degrengolada" />
+            <a class="entry__link" href="https://www.discogs.com/release/28651594" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">38</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">02 MAR 2026</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Internet, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 38/39</span>
+        </div>
+        <h2 class="entry__artist">Katarzyna Nosowska</h2>
+        <h3 class="entry__title">Degrengolada</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-22">
+          
+          <span class="sparked__target">№ 22 — Sanah</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a></div>
+      </div>
+    </article>
+    
+
+    <article class="entry month-marker" id="entry-39" data-side="A">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="https://i.discogs.com/Q5ePLXYO13hn8AUk1VVVpjZLTTRQpwHZGaLrsnsW3k0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDA2/NzkyLTE1NzQ1NTQ0/NzAtNjUzOS5wbmc.jpeg" alt="Cover of David Bowie — Space Oddity (2019 Mix)" />
+            <a class="entry__link" href="https://www.discogs.com/release/14406792" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">39</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">18 APR 2026</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">Poznań, Poland</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. 39/39</span>
+        </div>
+        <h2 class="entry__artist">David Bowie</h2>
+        <h3 class="entry__title">Space Oddity (2019 Mix)</h3>
+        
+        <div class="entry__connections">
+        <a class="sparked" href="#entry-36">
+          
+          <span class="sparked__target">№ 36 — David Bowie</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a></div>
+      </div>
+    </article>
+
+    <!--/example-->
+
+
+    <!--template_record-->
+    
+    <article class="entry {{MONTH_MARKER_CLASS}}" id="entry-01" data-side="{{SIDE}}">
+      <div class="entry__col">
+        <div class="entry__sleeve">
+        <div class="sleeve">
+          <div class="sleeve__shadow"></div>
+          <div class="sleeve__record" aria-hidden="true">
+            <div class="record">
+              <div class="record__grooves"></div>
+              <div class="record__label"></div>
+            </div>
+          </div>
+          <div class="sleeve__art">
+            <img src="{{COVER_URL}}" alt="{{COVER_ALT_TEXT}}" />
+            <a class="entry__link" href="{{DISCOGS_URL}}" target="_blank" rel="noopener">
+            <span>DISCOGS</span>
+            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 9L9 3M9 3H4M9 3V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="square"/></svg>
+          </a>
+            <div class="sleeve__corner sleeve__corner--tl"></div>
+            <div class="sleeve__corner sleeve__corner--br"></div>
+          </div>
+        </div>
+      </div>
+        <div class="entry__rail">
+          <span class="entry__num">{{RN}}</span>
+        </div>
+      </div>
+
+      <div class="entry__body">
+        <div class="entry__meta">
+          <span class="entry__date">{{DATE_ADDED}}</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__place">{{FROM}}</span>
+          <span class="entry__dot">•</span>
+          <span class="entry__catno">CAT. {{CAT_NO}}</span>
+        </div>
+        <h2 class="entry__artist">{{ARTIST}}</h2>
+        <h3 class="entry__title">{{ALBUM}}</h3>
+        <div class="entry__connections">
+
+        <!--sparked_event-->
+
+        <div class="sparked sparked--event">
+          <span class="sparked__event">{{SPARKED_EVENT}}</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </div>
+
+        <!--/sparked_event-->
+
+        <!--sparked_target-->
+
+        <a class="sparked" href="#entry-{{SPARKED_TARGET_NUM}}">
+          <span class="sparked__target">{{SPARKED_TARGET}}</span>
+          <span class="sparked__arrow">←</span><span class="sparked__label">Sparked by</span>
+        </a>
+
+        <!--/sparked_target-->
+      </div>
+        
+      <div class="entry__note">{{NOTE}}</div>
+      <div class="entry__connections">
+
+        <!--led_to-->
+
+        <a class="sparked sparked--to" href="#entry-{{LED_TO_NUM}}">
+            <span class="sparked__label">Led to</span>
+            <span class="sparked__arrow">→</span><span class="sparked__target">{{LED_TO_TARGET}}</span>
+          </a>
+
+        <!--/led_to-->
+
+        </div>
+      </div>
+    </article>
+
+    <!--/template_record-->
+</main>
+
+<footer class="colophon">
+  <div>
+    <h3 class="colophon__title">Colophon.</h3>
+    <div class="colophon__sep"></div>
+    <p class="colophon__text">{{COLOPHON}}</p>
+  </div>
+  <div>
+    <div class="colophon__meta">
+      <strong>Top Artists</strong><br>
+      {{TOP_ARTISTS}}
+    </div>
+  </div>
+  <div id="page-bottom"></div>
+</footer>
+
+<script>
+  // Timeline: highlight active month and center it in the sidebar
+  const track = document.getElementById('timelineTrack');
+
+  function updateTimeline() {
+    const markers = document.querySelectorAll('.month-marker');
+    const dots = document.querySelectorAll('.timeline__month');
+    let activeIdx = 0;
+    markers.forEach((marker, i) => {
+      const rect = marker.getBoundingClientRect();
+      if (rect.top <= window.innerHeight * 0.35) activeIdx = i;
+    });
+    dots.forEach((d, i) => d.classList.toggle('is-active', i === activeIdx));
+
+    // shift the track so active item is vertically centered in the sidebar
+    const activeDot = dots[activeIdx];
+    if (!activeDot || !track) return;
+    const sidebarH = track.parentElement.clientHeight;
+    const dotOffsetTop = activeDot.offsetTop + activeDot.offsetHeight / 2;
+    const shift = sidebarH / 2 - dotOffsetTop;
+    track.style.transform = `translateY(${shift}px)`;
+  }
+
+  updateTimeline();
+  window.addEventListener('scroll', updateTimeline, { passive: true });
+</script>
+
+</div><!-- .main-content -->
+</div><!-- .page-wrap -->
+
+</body>
+</html>
