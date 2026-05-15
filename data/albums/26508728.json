@@ -1,0 +1,74 @@
+{
+  "release_id": "26508728",
+  "master_id": "35626",
+  "title": "Toxicity",
+  "artist": "System Of A Down",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Prison Song",
+          "time": "3:21"
+        },
+        {
+          "title": "Needles",
+          "time": "3:13"
+        },
+        {
+          "title": "Deer Dance",
+          "time": "2:54"
+        },
+        {
+          "title": "Jet Pilot",
+          "time": "2:06"
+        },
+        {
+          "title": "X",
+          "time": "1:58"
+        },
+        {
+          "title": "Chop Suey!",
+          "time": "3:30"
+        },
+        {
+          "title": "Bounce",
+          "time": "1:54"
+        },
+        {
+          "title": "Forest",
+          "time": "4:00"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "ATWA",
+          "time": "2:56"
+        },
+        {
+          "title": "Science",
+          "time": "2:42"
+        },
+        {
+          "title": "Shimmy",
+          "time": "1:50"
+        },
+        {
+          "title": "Toxicity",
+          "time": "3:38"
+        },
+        {
+          "title": "Psycho",
+          "time": "3:45"
+        },
+        {
+          "title": "Aerials",
+          "time": "6:11"
+        }
+      ]
+    }
+  ]
+}

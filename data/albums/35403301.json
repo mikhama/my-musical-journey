@@ -1,0 +1,62 @@
+{
+  "release_id": "35403301",
+  "master_id": "4005199",
+  "title": "Legends",
+  "artist": "Sabaton",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Templars",
+          "time": "4:54"
+        },
+        {
+          "title": "Hordes Of Khan",
+          "time": "3:43"
+        },
+        {
+          "title": "A Tiger Among Dragons",
+          "time": "4:06"
+        },
+        {
+          "title": "Crossing The Rubicon",
+          "time": "3:29"
+        },
+        {
+          "title": "I, Emperor",
+          "time": "4:15"
+        },
+        {
+          "title": "Maid Of Steel",
+          "time": "3:17"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Impaler",
+          "time": "4:44"
+        },
+        {
+          "title": "Lightning At The Gates",
+          "time": "4:12"
+        },
+        {
+          "title": "The Duelist",
+          "time": "3:55"
+        },
+        {
+          "title": "The Cycle Of Songs",
+          "time": "5:39"
+        },
+        {
+          "title": "Till Seger",
+          "time": "3:27"
+        }
+      ]
+    }
+  ]
+}

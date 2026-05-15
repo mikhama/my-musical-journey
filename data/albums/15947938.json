@@ -1,0 +1,62 @@
+{
+  "release_id": "15947938",
+  "master_id": "48605",
+  "title": "Eliminator",
+  "artist": "ZZ Top",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Gimme All Your Lovin'",
+          "time": "3:59"
+        },
+        {
+          "title": "Got Me Under Pressure",
+          "time": "3:59"
+        },
+        {
+          "title": "Sharp Dressed Man",
+          "time": "4:13"
+        },
+        {
+          "title": "I Need You Tonight",
+          "time": "6:14"
+        },
+        {
+          "title": "I Got The Six",
+          "time": "2:52"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Legs",
+          "time": "4:35"
+        },
+        {
+          "title": "Thug",
+          "time": "4:17"
+        },
+        {
+          "title": "TV Dinners",
+          "time": "3:50"
+        },
+        {
+          "title": "Dirty Dog",
+          "time": "4:05"
+        },
+        {
+          "title": "If I Could Only Flag Her Down",
+          "time": "3:40"
+        },
+        {
+          "title": "Bad Girl",
+          "time": "3:16"
+        }
+      ]
+    }
+  ]
+}

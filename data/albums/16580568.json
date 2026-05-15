@@ -1,0 +1,58 @@
+{
+  "release_id": "16580568",
+  "master_id": "1181348",
+  "title": "One More Light",
+  "artist": "Linkin Park",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Nobody Can Save Me",
+          "time": "3:46"
+        },
+        {
+          "title": "Good Goodbye",
+          "time": "3:31"
+        },
+        {
+          "title": "Talking To Myself",
+          "time": "3:51"
+        },
+        {
+          "title": "Battle Symphony",
+          "time": "3:36"
+        },
+        {
+          "title": "Invisible",
+          "time": "3:34"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Heavy",
+          "time": "2:50"
+        },
+        {
+          "title": "Sorry For Now",
+          "time": "3:24"
+        },
+        {
+          "title": "Halfway Right",
+          "time": "3:34"
+        },
+        {
+          "title": "One More Light",
+          "time": "4:15"
+        },
+        {
+          "title": "Sharp Edges",
+          "time": "2:58"
+        }
+      ]
+    }
+  ]
+}

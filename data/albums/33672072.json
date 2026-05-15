@@ -1,0 +1,62 @@
+{
+  "release_id": "33672072",
+  "master_id": "3733767",
+  "title": "Ain't It Tragic",
+  "artist": "Dead Sara",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Starry Eyed",
+          "time": "4:14"
+        },
+        {
+          "title": "Good Times",
+          "time": "3:42"
+        },
+        {
+          "title": "All I Know Is That You Left Me For Dead",
+          "time": "3:18"
+        },
+        {
+          "title": "Hypnotic",
+          "time": "2:58"
+        },
+        {
+          "title": "Heroes",
+          "time": "3:16"
+        },
+        {
+          "title": "Hands Up",
+          "time": "3:20"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Lover Stay Wild",
+          "time": "3:40"
+        },
+        {
+          "title": "Gimme Gimme",
+          "time": "3:00"
+        },
+        {
+          "title": "Lights Out!",
+          "time": "3:14"
+        },
+        {
+          "title": "Uninspired",
+          "time": "3:23"
+        },
+        {
+          "title": "Losing My Mind",
+          "time": "4:12"
+        }
+      ]
+    }
+  ]
+}

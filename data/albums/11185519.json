@@ -1,0 +1,96 @@
+{
+  "release_id": "11185519",
+  "master_id": "1272941",
+  "title": "Born To Touch Your Feelings - Best Of Rock Ballads",
+  "artist": "Scorpions",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Born To Touch Your Feelings (MTV Unplugged Studio Edit)",
+          "time": "4:02"
+        },
+        {
+          "title": "Still Loving You (Comeblack Version)",
+          "time": "6:43"
+        },
+        {
+          "title": "Wind Of Change (Comeblack Version)",
+          "time": "5:08"
+        },
+        {
+          "title": "Always Somewhere (2015 Remaster)",
+          "time": "4:54"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Send Me An Angel (Acoustic Version 2017)",
+          "time": "4:19"
+        },
+        {
+          "title": "Holiday (2015 Remaster)",
+          "time": "6:31"
+        },
+        {
+          "title": "Eye Of The Storm  (Radio Edit)",
+          "time": "3:22"
+        },
+        {
+          "title": "When The Smoke Is Going Down (2015 Remaster)",
+          "time": "3:51"
+        }
+      ]
+    },
+    {
+      "side_label": "C",
+      "tracks": [
+        {
+          "title": "Lonely Nights",
+          "time": "4:49"
+        },
+        {
+          "title": "Gypsy Life",
+          "time": "4:52"
+        },
+        {
+          "title": "House Of Cards (Single Edit)",
+          "time": "4:28"
+        },
+        {
+          "title": "The Best Is Yet To Come",
+          "time": "4:32"
+        }
+      ]
+    },
+    {
+      "side_label": "D",
+      "tracks": [
+        {
+          "title": "When You Came Into My Life (MTV Unplugged Studio Edit)",
+          "time": "3:32"
+        },
+        {
+          "title": "Lady Starlight (2015 Remaster)",
+          "time": "6:16"
+        },
+        {
+          "title": "Follow Your Heart (Version 2017)",
+          "time": "4:05"
+        },
+        {
+          "title": "Melrose Avenue",
+          "time": "3:32"
+        },
+        {
+          "title": "Always Be With You",
+          "time": "3:29"
+        }
+      ]
+    }
+  ]
+}

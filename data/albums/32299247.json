@@ -1,0 +1,62 @@
+{
+  "release_id": "32299247",
+  "master_id": "3656130",
+  "title": "From Zero",
+  "artist": "Linkin Park",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "From Zero (Intro)",
+          "time": "0:22"
+        },
+        {
+          "title": "The Emptiness Machine",
+          "time": "3:10"
+        },
+        {
+          "title": "Cut The Bridge",
+          "time": "3:48"
+        },
+        {
+          "title": "Heavy Is The Crown",
+          "time": "2:47"
+        },
+        {
+          "title": "Over Each Other",
+          "time": "2:50"
+        },
+        {
+          "title": "Casualty",
+          "time": "2:20"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Overflow",
+          "time": "3:31"
+        },
+        {
+          "title": "Two Faced",
+          "time": "3:03"
+        },
+        {
+          "title": "Stained",
+          "time": "3:05"
+        },
+        {
+          "title": "IGYEIH",
+          "time": "3:29"
+        },
+        {
+          "title": "Good Things Go",
+          "time": "3:29"
+        }
+      ]
+    }
+  ]
+}

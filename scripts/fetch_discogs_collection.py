@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Export the authenticated Discogs user's full collection to collection.json."""
+"""Export the authenticated Discogs user's full collection to discogs_collection.json."""
 
 import json
 import os
@@ -11,7 +11,7 @@ import urllib.request
 
 API_BASE = "https://api.discogs.com"
 USER_AGENT = "DiscogsCollectionExport/1.0"
-OUTPUT_PATH = "data/collection.json"
+OUTPUT_PATH = "data/discogs_collection.json"
 PER_PAGE = 100
 THROTTLE_SECONDS = 1.0
 MAX_429_RETRIES = 3

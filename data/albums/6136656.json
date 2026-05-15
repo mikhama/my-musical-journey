@@ -1,0 +1,58 @@
+{
+  "release_id": "6136656",
+  "master_id": "39248",
+  "title": "Synchronicity",
+  "artist": "The Police",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Synchronicity I",
+          "time": "3:23"
+        },
+        {
+          "title": "Walking In Your Footsteps",
+          "time": "3:35"
+        },
+        {
+          "title": "O My God",
+          "time": "4:00"
+        },
+        {
+          "title": "Mother",
+          "time": "3:03"
+        },
+        {
+          "title": "Miss Gradenko",
+          "time": "2:00"
+        },
+        {
+          "title": "Synchronicity II",
+          "time": "5:04"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Every Breath You Take",
+          "time": "4:13"
+        },
+        {
+          "title": "King Of Pain",
+          "time": "4:59"
+        },
+        {
+          "title": "Wrapped Around Your Finger",
+          "time": "5:12"
+        },
+        {
+          "title": "Tea In The Sahara",
+          "time": "4:11"
+        }
+      ]
+    }
+  ]
+}

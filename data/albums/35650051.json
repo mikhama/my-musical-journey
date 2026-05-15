@@ -1,0 +1,54 @@
+{
+  "release_id": "35650051",
+  "master_id": "4029658",
+  "title": "MTV Unplugged",
+  "artist": "The Cranberries",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Intro / Dreaming My Dreams",
+          "time": "4:39"
+        },
+        {
+          "title": "Ode To My Family",
+          "time": "5:59"
+        },
+        {
+          "title": "Linger",
+          "time": "5:06"
+        },
+        {
+          "title": "Free To Decide",
+          "time": "4:48"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "I'm Still Remembering",
+          "time": "5:11"
+        },
+        {
+          "title": "Empty",
+          "time": "4:10"
+        },
+        {
+          "title": "Zombie",
+          "time": "4:30"
+        },
+        {
+          "title": "Yesterday's Gone",
+          "time": "4:04"
+        },
+        {
+          "title": "No Need To Argue",
+          "time": "3:30"
+        }
+      ]
+    }
+  ]
+}

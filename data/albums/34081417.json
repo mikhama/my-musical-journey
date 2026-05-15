@@ -1,0 +1,108 @@
+{
+  "release_id": "34081417",
+  "master_id": "3857272",
+  "title": "Dwoje Ludzieńków",
+  "artist": "Sanah",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "artist": "Sanah, Krzysztof Zalewski",
+          "title": "Eviva L’arte! (K. Przerwa-Tetmajer)",
+          "time": "3:36"
+        },
+        {
+          "artist": "Sanah, Michał Bajor",
+          "title": "Elegia O… [Chłopcu Polskim] (K. K. Baczyński)",
+          "time": "3:42"
+        },
+        {
+          "artist": "Sanah, Anna Maria Jopek",
+          "title": "Kochałam Pana (A. Osiecka)",
+          "time": "4:48"
+        },
+        {
+          "artist": "Sanah, Mela Koteluk",
+          "title": "Maj 1939 (Z. Ginczanka)",
+          "time": "3:17"
+        },
+        {
+          "artist": "Sanah, Kuba Badach",
+          "title": "Piosenka (C. Miłosz)",
+          "time": "3:17"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "artist": "Sanah, Mazowsze",
+          "title": "Jesienią (M. Konopnicka)",
+          "time": "3:21"
+        },
+        {
+          "artist": "Sanah, Natalia Szroeder",
+          "title": "Był Bal (J. Kofta)",
+          "time": "3:56"
+        },
+        {
+          "artist": "Sanah, Grzegorz Skawiński",
+          "title": "Inwokacja (A. Mickiewicz)",
+          "time": "5:02"
+        },
+        {
+          "artist": "Sanah, Katarzyna Nosowska",
+          "title": "Ofelia (M. Pawlikowska-Jasnorzewska)",
+          "time": "3:30"
+        },
+        {
+          "artist": "Sanah, Alicja Majewska",
+          "title": "Oczyszczenie (T. Różewicz)",
+          "time": "2:47"
+        }
+      ]
+    },
+    {
+      "side_label": "C",
+      "tracks": [
+        {
+          "artist": "Sanah, Kasia Kowalska",
+          "title": "Kiedy Umrę Kochanie (H. Poświatowska)",
+          "time": "3:15"
+        },
+        {
+          "artist": "Sanah, Sobel",
+          "title": "Dwoje Ludzieńków (B. Leśmian)",
+          "time": "4:25"
+        },
+        {
+          "title": "Pocałunki (M. Pawlikowska-Jasnorzewska)",
+          "time": "3:13"
+        },
+        {
+          "title": "Na Grobie Rycerz (M. Konopnicka)",
+          "time": "3:44"
+        }
+      ]
+    },
+    {
+      "side_label": "D",
+      "tracks": [
+        {
+          "title": "Rozwijając Rilkego (J. Cygan) (Live Toruń 28.03.2024)",
+          "time": "3:14"
+        },
+        {
+          "title": "Do * W Sztambuch (A. Mickiewicz) (Live: Toruń 28.03.2024)",
+          "time": "3:40"
+        },
+        {
+          "title": "Kamień (A. Asnyk) (Live: Toruń 28.03.2024)",
+          "time": "4:13"
+        }
+      ]
+    }
+  ]
+}

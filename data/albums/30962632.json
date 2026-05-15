@@ -1,0 +1,100 @@
+{
+  "release_id": "30962632",
+  "master_id": "1379560",
+  "title": "Post Traumatic",
+  "artist": "Mike Shinoda",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Place To Start",
+          "time": "2:13"
+        },
+        {
+          "title": "Over Again",
+          "time": "3:51"
+        },
+        {
+          "title": "Watching As I Fall",
+          "time": "3:31"
+        },
+        {
+          "title": "Nothing Makes Sense Anymore",
+          "time": "3:34"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "About You",
+          "time": "3:26"
+        },
+        {
+          "title": "Brooding (Instrumental)",
+          "time": "2:32"
+        },
+        {
+          "title": "Promises I Can't Keep",
+          "time": "3:23"
+        },
+        {
+          "title": "Crossing A Line",
+          "time": "4:03"
+        }
+      ]
+    },
+    {
+      "side_label": "C",
+      "tracks": [
+        {
+          "title": "Hold It Together",
+          "time": "3:25"
+        },
+        {
+          "title": "Ghosts",
+          "time": "2:55"
+        },
+        {
+          "title": "Make It Up As I Go",
+          "time": "3:30"
+        },
+        {
+          "title": "Lift Off",
+          "time": "4:00"
+        }
+      ]
+    },
+    {
+      "side_label": "D",
+      "tracks": [
+        {
+          "title": "I.O.U.",
+          "time": "2:43"
+        },
+        {
+          "title": "Running From My Shadow",
+          "time": "3:25"
+        },
+        {
+          "title": "World's On Fire",
+          "time": "3:16"
+        },
+        {
+          "title": "Can't Hear You Now",
+          "time": "3:28"
+        },
+        {
+          "title": "Prove You Wrong",
+          "time": "3:36"
+        },
+        {
+          "title": "What The Words Meant",
+          "time": "3:33"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "release_id": "28521709",
+  "master_id": "288148",
+  "title": "Pod Prąd",
+  "artist": "KSU",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "1944",
+          "time": "2:34"
+        },
+        {
+          "title": "Po Drugiej Stronie Drzwi",
+          "time": "2:41"
+        },
+        {
+          "title": "Martwy Rok",
+          "time": "5:03"
+        },
+        {
+          "title": "Liban",
+          "time": "2:42"
+        },
+        {
+          "title": "Ewolucja",
+          "time": "3:57"
+        },
+        {
+          "title": "Pijany Gówniarz",
+          "time": "2:16"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Na Krawędzi Snu",
+          "time": "4:07"
+        },
+        {
+          "title": "Pod Prąd",
+          "time": "2:22"
+        },
+        {
+          "title": "Dno",
+          "time": "1:46"
+        },
+        {
+          "title": "Jabolowe Ofiary",
+          "time": "1:58"
+        },
+        {
+          "title": "Umarłe Drzewa",
+          "time": "2:37"
+        },
+        {
+          "title": "Jabol Punk",
+          "time": "1:55"
+        },
+        {
+          "title": "Wielki Koniec",
+          "time": "2:28"
+        }
+      ]
+    }
+  ]
+}

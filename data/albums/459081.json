@@ -1,0 +1,50 @@
+{
+  "release_id": "459081",
+  "master_id": "29314",
+  "title": "Lovedrive",
+  "artist": "Scorpions",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Loving You Sunday Morning",
+          "time": "5:35"
+        },
+        {
+          "title": "Another Piece Of Meat",
+          "time": "3:30"
+        },
+        {
+          "title": "Always Somewhere",
+          "time": "4:54"
+        },
+        {
+          "title": "Coast To Coast",
+          "time": "4:40"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Can't Get Enough",
+          "time": "2:35"
+        },
+        {
+          "title": "Is There Anybody There?",
+          "time": "3:55"
+        },
+        {
+          "title": "Lovedrive",
+          "time": "4:48"
+        },
+        {
+          "title": "Holiday",
+          "time": "6:31"
+        }
+      ]
+    }
+  ]
+}

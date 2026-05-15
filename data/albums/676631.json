@@ -1,0 +1,58 @@
+{
+  "release_id": "676631",
+  "master_id": "54355",
+  "title": "Undercover",
+  "artist": "The Rolling Stones",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Undercover Of The Night",
+          "time": "4:32"
+        },
+        {
+          "title": "She Was Hot",
+          "time": "4:40"
+        },
+        {
+          "title": "Tie You Up (The Pain Of Love)",
+          "time": "4:12"
+        },
+        {
+          "title": "Wanna Hold You",
+          "time": "3:12"
+        },
+        {
+          "title": "Feel On Baby",
+          "time": "5:05"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Too Much Blood",
+          "time": "6:10"
+        },
+        {
+          "title": "Pretty Beat Up",
+          "time": "4:03"
+        },
+        {
+          "title": "Too Tough",
+          "time": "3:50"
+        },
+        {
+          "title": "All The Way Down",
+          "time": "3:10"
+        },
+        {
+          "title": "It Must Be Hell",
+          "time": "5:03"
+        }
+      ]
+    }
+  ]
+}

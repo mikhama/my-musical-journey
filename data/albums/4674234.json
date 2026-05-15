@@ -1,0 +1,66 @@
+{
+  "release_id": "4674234",
+  "master_id": "5863",
+  "title": "A Night At The Opera",
+  "artist": "Queen",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Death On Two Legs (Dedicated To ...)",
+          "time": "3:37"
+        },
+        {
+          "title": "Lazing On A Sunday Afternoon",
+          "time": "1:06"
+        },
+        {
+          "title": "I'm In Love With My Car",
+          "time": "3:00"
+        },
+        {
+          "title": "You're My Best Friend",
+          "time": "2:47"
+        },
+        {
+          "title": "'39",
+          "time": "3:13"
+        },
+        {
+          "title": "Sweet Lady",
+          "time": "4:09"
+        },
+        {
+          "title": "Seaside Rendezvous",
+          "time": "2:12"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "The Prophet's Song",
+          "time": "7:31"
+        },
+        {
+          "title": "Love Of My Life",
+          "time": "4:06"
+        },
+        {
+          "title": "Good Company",
+          "time": "3:22"
+        },
+        {
+          "title": "Bohemian Rhapsody",
+          "time": "5:48"
+        },
+        {
+          "title": "God Save The Queen",
+          "time": "1:07"
+        }
+      ]
+    }
+  ]
+}

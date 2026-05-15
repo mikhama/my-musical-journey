@@ -1,0 +1,62 @@
+{
+  "release_id": "32496321",
+  "master_id": "1561",
+  "title": "The Rise And Fall Of Ziggy Stardust And The Spiders From Mars",
+  "artist": "David Bowie",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Five Years",
+          "time": "4:42"
+        },
+        {
+          "title": "Soul Love",
+          "time": "3:34"
+        },
+        {
+          "title": "Moonage Daydream",
+          "time": "4:40"
+        },
+        {
+          "title": "Starman",
+          "time": "4:10"
+        },
+        {
+          "title": "It Ain’t Easy",
+          "time": "2:58"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Lady Stardust",
+          "time": "3:22"
+        },
+        {
+          "title": "Star",
+          "time": "2:47"
+        },
+        {
+          "title": "Hang On To Yourself",
+          "time": "2:40"
+        },
+        {
+          "title": "Ziggy Stardust",
+          "time": "3:13"
+        },
+        {
+          "title": "Suffragette City",
+          "time": "3:25"
+        },
+        {
+          "title": "Rock ‘n’ Roll Suicide",
+          "time": "2:58"
+        }
+      ]
+    }
+  ]
+}

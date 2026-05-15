@@ -1,0 +1,54 @@
+{
+  "release_id": "3587814",
+  "master_id": "29385",
+  "title": "Savage Amusement",
+  "artist": "Scorpions",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Don't Stop At The Top",
+          "time": "4:03"
+        },
+        {
+          "title": "Rhythm Of Love",
+          "time": "3:47"
+        },
+        {
+          "title": "Passion Rules The Game",
+          "time": "3:58"
+        },
+        {
+          "title": "Media Overkill",
+          "time": "3:32"
+        },
+        {
+          "title": "Walking On The Edge",
+          "time": "5:05"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "We Let It Rock...You Let It Roll",
+          "time": "3:38"
+        },
+        {
+          "title": "Every Minute Every Day",
+          "time": "4:21"
+        },
+        {
+          "title": "Love On The Run",
+          "time": "3:35"
+        },
+        {
+          "title": "Believe In Love",
+          "time": "5:20"
+        }
+      ]
+    }
+  ]
+}

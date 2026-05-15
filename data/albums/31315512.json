@@ -1,0 +1,71 @@
+{
+  "release_id": "31315512",
+  "master_id": "697605",
+  "title": "The Hunting Party",
+  "artist": "Linkin Park",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Keys To The Kingdom",
+          "time": "3:38"
+        },
+        {
+          "title": "All For Nothing",
+          "time": "3:33"
+        },
+        {
+          "title": "Guilty All The Same",
+          "time": "5:56"
+        },
+        {
+          "title": "The Summoning",
+          "time": "1:00"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "War",
+          "time": "2:11"
+        },
+        {
+          "title": "Wastelands",
+          "time": "3:15"
+        },
+        {
+          "title": "Until It's Gone",
+          "time": "3:53"
+        },
+        {
+          "title": "Rebellion",
+          "time": "3:44"
+        }
+      ]
+    },
+    {
+      "side_label": "C",
+      "tracks": [
+        {
+          "title": "Mark The Graves",
+          "time": "5:05"
+        },
+        {
+          "title": "Drawbar",
+          "time": "2:46"
+        },
+        {
+          "title": "Final Masquerade",
+          "time": "3:37"
+        },
+        {
+          "title": "A Line In The Sand",
+          "time": "6:35"
+        }
+      ]
+    }
+  ]
+}

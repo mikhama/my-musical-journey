@@ -1,0 +1,58 @@
+{
+  "release_id": "11191429",
+  "master_id": "0",
+  "title": "Back in Black",
+  "artist": "AC/DC",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Hells Bells",
+          "time": "5:09"
+        },
+        {
+          "title": "Shoot to Thrill ",
+          "time": "5:14"
+        },
+        {
+          "title": "What do you do for Money Honey",
+          "time": "3:33"
+        },
+        {
+          "title": "Givin the dog a bone",
+          "time": "3:30"
+        },
+        {
+          "title": "Let me Put my Love into you",
+          "time": "4:12"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Back in Black",
+          "time": "4:13"
+        },
+        {
+          "title": "You Shook me all Night Long",
+          "time": "3:28"
+        },
+        {
+          "title": "Have a Drink on me",
+          "time": "3:57"
+        },
+        {
+          "title": "Shake a Leg",
+          "time": "4:03"
+        },
+        {
+          "title": "Rock and Roll ain't Noise Pollution",
+          "time": "4:12"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "release_id": "8803959",
+  "master_id": "122277",
+  "title": "Pastel Blues",
+  "artist": "Nina Simone",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Be My Husband",
+          "time": "3:19"
+        },
+        {
+          "title": "Nobody Knows You When You're Down And Out",
+          "time": "2:35"
+        },
+        {
+          "title": "End Of The Line",
+          "time": "2:51"
+        },
+        {
+          "title": "Trouble In Mind",
+          "time": "2:37"
+        },
+        {
+          "title": "Tell Me More And More And Then Some",
+          "time": "3:05"
+        },
+        {
+          "title": "Chilly Winds Don't Blow",
+          "time": "3:59"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Ain't No Use",
+          "time": "2:55"
+        },
+        {
+          "title": "Strange Fruit",
+          "time": "3:26"
+        },
+        {
+          "title": "Sinnerman",
+          "time": "10:15"
+        }
+      ]
+    }
+  ]
+}

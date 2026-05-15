@@ -1,0 +1,66 @@
+{
+  "release_id": "16013697",
+  "master_id": "448939",
+  "title": "Living Things",
+  "artist": "Linkin Park",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Lost In The Echo",
+          "time": "3:25"
+        },
+        {
+          "title": "In My Remains",
+          "time": "3:20"
+        },
+        {
+          "title": "Burn It Down",
+          "time": "3:50"
+        },
+        {
+          "title": "Lies Greed Misery",
+          "time": "2:26"
+        },
+        {
+          "title": "I'll Be Gone",
+          "time": "3:31"
+        },
+        {
+          "title": "Castle Of Glass",
+          "time": "3:25"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Victimized",
+          "time": "1:46"
+        },
+        {
+          "title": "Roads Untraveled",
+          "time": "3:49"
+        },
+        {
+          "title": "Skin To Bone",
+          "time": "2:48"
+        },
+        {
+          "title": "Until It Breaks",
+          "time": "3:43"
+        },
+        {
+          "title": "Tinfoil",
+          "time": "1:11"
+        },
+        {
+          "title": "Powerless",
+          "time": "3:44"
+        }
+      ]
+    }
+  ]
+}

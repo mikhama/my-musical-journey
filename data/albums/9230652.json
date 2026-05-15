@@ -1,0 +1,148 @@
+{
+  "release_id": "9230652",
+  "master_id": "1077671",
+  "title": "Lazarus",
+  "artist": "Original New York Cast Of Lazarus",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "artist": "Ricky Nelson",
+          "title": "Hello Mary Lou (Goodbye Heart)",
+          "time": "0:40"
+        },
+        {
+          "artist": "Michael C. Hall, Original New York Cast Of Lazarus",
+          "title": "Lazarus",
+          "time": "3:39"
+        },
+        {
+          "artist": "Michael C. Hall, Lynn Craig, Original New York Cast Of Lazarus",
+          "title": "It's No Game",
+          "time": "3:53"
+        },
+        {
+          "artist": "Sophia Anne Caruso, Original New York Cast Of Lazarus",
+          "title": "This Is Not America",
+          "time": "4:18"
+        },
+        {
+          "artist": "Charlie Pollock",
+          "title": "The Man Who Sold The World",
+          "time": "3:22"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "artist": "Sophia Anne Caruso",
+          "title": "No Plan",
+          "time": "3:35"
+        },
+        {
+          "artist": "Michael Esper, Original New York Cast Of Lazarus",
+          "title": "Love Is Lost",
+          "time": "2:55"
+        },
+        {
+          "artist": "Cristin Milioti, Original New York Cast Of Lazarus",
+          "title": "Changes",
+          "time": "3:58"
+        },
+        {
+          "artist": "Michael C. Hall, Original New York Cast Of Lazarus",
+          "title": "Where Are We Now?",
+          "time": "4:22"
+        }
+      ]
+    },
+    {
+      "side_label": "C",
+      "tracks": [
+        {
+          "artist": "Michael C. Hall, Cristin Milioti, Michael Esper, Sophia Anne Caruso, Krystina Alabado, Original New York Cast Of Lazarus",
+          "title": "Absolute Beginners",
+          "time": "4:40"
+        },
+        {
+          "artist": "Michael Esper",
+          "title": "Dirty Boys",
+          "time": "2:28"
+        },
+        {
+          "artist": "Michael C. Hall",
+          "title": "Killing A Little Time",
+          "time": "3:48"
+        },
+        {
+          "artist": "Sophia Anne Caruso",
+          "title": "Life On Mars?",
+          "time": "3:48"
+        },
+        {
+          "artist": "Nicholas Christopher, Lynn Craig, Michael Esper, Sophia Anne Caruso, Original New York Cast Of Lazarus",
+          "title": "All The Young Dudes",
+          "time": "2:55"
+        }
+      ]
+    },
+    {
+      "side_label": "D",
+      "tracks": [
+        {
+          "artist": "David Bowie",
+          "title": "Sound And Vision",
+          "time": "0:40"
+        },
+        {
+          "artist": "Cristin Milioti",
+          "title": "Always Crashing In The Same Car",
+          "time": "3:12"
+        },
+        {
+          "artist": "Michael Esper, Original New York Cast Of Lazarus",
+          "title": "Valentine's Day",
+          "time": "3:00"
+        },
+        {
+          "artist": "Michael C. Hall, Krystina Alabado",
+          "title": "When I Met You",
+          "time": "3:56"
+        },
+        {
+          "artist": "Michael C. Hall, Sophia Anne Caruso, Original New York Cast Of Lazarus",
+          "title": "Heroes",
+          "time": "4:47"
+        }
+      ]
+    },
+    {
+      "side_label": "E",
+      "tracks": [
+        {
+          "artist": "David Bowie",
+          "title": "Lazarus",
+          "time": "6:24"
+        },
+        {
+          "artist": "David Bowie",
+          "title": "No Plan",
+          "time": "3:41"
+        },
+        {
+          "artist": "David Bowie",
+          "title": "Killing A Little Time",
+          "time": "3:48"
+        },
+        {
+          "artist": "David Bowie",
+          "title": "When I Met You",
+          "time": "4:08"
+        }
+      ]
+    }
+  ]
+}

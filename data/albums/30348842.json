@@ -1,0 +1,108 @@
+{
+  "release_id": "30348842",
+  "master_id": "3453923",
+  "title": "Papercuts",
+  "artist": "Linkin Park",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Crawling",
+          "time": "3:29"
+        },
+        {
+          "title": "Faint",
+          "time": "2:42"
+        },
+        {
+          "title": "Numb/Encore",
+          "time": "3:25"
+        },
+        {
+          "title": "Papercut",
+          "time": "3:05"
+        },
+        {
+          "title": "Breaking The Habit",
+          "time": "3:16"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "In The End",
+          "time": "3:36"
+        },
+        {
+          "title": "Bleed It Out",
+          "time": "2:44"
+        },
+        {
+          "title": "Somewhere I Belong",
+          "time": "3:34"
+        },
+        {
+          "title": "Waiting For The End",
+          "time": "3:51"
+        },
+        {
+          "title": "Castle Of Glass",
+          "time": "3:25"
+        }
+      ]
+    },
+    {
+      "side_label": "C",
+      "tracks": [
+        {
+          "title": "One More Light",
+          "time": "4:15"
+        },
+        {
+          "title": "Burn It Down",
+          "time": "3:50"
+        },
+        {
+          "title": "What I've Done",
+          "time": "3:25"
+        },
+        {
+          "title": "Qwerty",
+          "time": "3:22"
+        },
+        {
+          "title": "One Step Closer",
+          "time": "2:37"
+        }
+      ]
+    },
+    {
+      "side_label": "D",
+      "tracks": [
+        {
+          "title": "New Divide",
+          "time": "4:29"
+        },
+        {
+          "title": "Leave Out All The Rest",
+          "time": "3:29"
+        },
+        {
+          "title": "Lost",
+          "time": "3:19"
+        },
+        {
+          "title": "Numb",
+          "time": "3:07"
+        },
+        {
+          "title": "Friendly Fire",
+          "time": "2:56"
+        }
+      ]
+    }
+  ]
+}

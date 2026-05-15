@@ -1,0 +1,72 @@
+{
+  "release_id": "11237410",
+  "master_id": "95288",
+  "title": "Reise, Reise",
+  "artist": "Rammstein",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Reise, Reise",
+          "time": "4:12"
+        },
+        {
+          "title": "Mein Teil",
+          "time": "4:33"
+        },
+        {
+          "title": "Dalai Lama",
+          "time": "5:39"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Keine Lust",
+          "time": "3:43"
+        },
+        {
+          "title": "Los",
+          "time": "4:24"
+        },
+        {
+          "title": "Amerika",
+          "time": "3:47"
+        }
+      ]
+    },
+    {
+      "side_label": "C",
+      "tracks": [
+        {
+          "title": "Moskau",
+          "time": "4:17"
+        },
+        {
+          "title": "Morgenstern",
+          "time": "4:00"
+        },
+        {
+          "title": "Stein Um Stein",
+          "time": "3:53"
+        }
+      ]
+    },
+    {
+      "side_label": "D",
+      "tracks": [
+        {
+          "title": "Ohne Dich",
+          "time": "4:32"
+        },
+        {
+          "title": "Amour",
+          "time": "4:51"
+        }
+      ]
+    }
+  ]
+}

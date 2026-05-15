@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build collection.md from collection.json.
+"""Build collection.md from discogs_collection.json.
 
 On first run: creates the full markdown with all sections, filling Discogs
 fields and leaving manual fields as TBD.
@@ -12,7 +12,7 @@ import os
 import re
 import sys
 
-INPUT_PATH = "data/collection.json"
+INPUT_PATH = "data/discogs_collection.json"
 OUTPUT_PATH = "data/collection.md"
 
 

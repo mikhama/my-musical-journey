@@ -1,0 +1,66 @@
+{
+  "release_id": "25101763",
+  "master_id": "74541",
+  "title": "Minutes To Midnight",
+  "artist": "Linkin Park",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Wake",
+          "time": "1:40"
+        },
+        {
+          "title": "Given Up",
+          "time": "3:09"
+        },
+        {
+          "title": "Leave Out All The Rest",
+          "time": "3:29"
+        },
+        {
+          "title": "Bleed It Out",
+          "time": "2:44"
+        },
+        {
+          "title": "Shadow Of The Day",
+          "time": "4:49"
+        },
+        {
+          "title": "What I've Done",
+          "time": "3:25"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Hands Held High",
+          "time": "3:53"
+        },
+        {
+          "title": "No More Sorrow",
+          "time": "3:41"
+        },
+        {
+          "title": "Valentine's Day",
+          "time": "3:16"
+        },
+        {
+          "title": "In Between",
+          "time": "3:16"
+        },
+        {
+          "title": "In Pieces",
+          "time": "3:37"
+        },
+        {
+          "title": "The Little Things Give You Away",
+          "time": "6:23"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "release_id": "10130983",
+  "master_id": "309103",
+  "title": "Acoustica",
+  "artist": "Scorpions",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Loving You Sunday Morning",
+          "time": "5:29"
+        },
+        {
+          "title": "Is There Anybody There",
+          "time": "4:36"
+        },
+        {
+          "title": "The Zoo",
+          "time": "5:48"
+        },
+        {
+          "title": "Always Somewhere",
+          "time": "4:11"
+        },
+        {
+          "title": "Life Is Too Short",
+          "time": "5:18"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Holiday",
+          "time": "5:55"
+        },
+        {
+          "title": "You & I",
+          "time": "5:19"
+        },
+        {
+          "title": "When Love Kills Love",
+          "time": "4:54"
+        },
+        {
+          "title": "Tease Me, Please Me",
+          "time": "5:23"
+        },
+        {
+          "title": "Dust In The Wind",
+          "time": "3:49"
+        }
+      ]
+    },
+    {
+      "side_label": "C",
+      "tracks": [
+        {
+          "title": "Send Me An Angel",
+          "time": "5:24"
+        },
+        {
+          "title": "Under The Same Sun",
+          "time": "5:34"
+        },
+        {
+          "title": "Rhythm Of Love",
+          "time": "5:15"
+        },
+        {
+          "title": "Back To You",
+          "time": "4:54"
+        },
+        {
+          "title": "Catch Your Train",
+          "time": "3:41"
+        }
+      ]
+    },
+    {
+      "side_label": "D",
+      "tracks": [
+        {
+          "title": "I Wanted To Cry (But The Tears Wouldn't Come)",
+          "time": "3:49"
+        },
+        {
+          "title": "Wind Of Change",
+          "time": "5:34"
+        },
+        {
+          "title": "Love Of My Life",
+          "time": "2:32"
+        },
+        {
+          "title": "Drive",
+          "time": "4:00"
+        },
+        {
+          "title": "Still Loving You",
+          "time": "5:44"
+        },
+        {
+          "title": "Hurricane 2001",
+          "time": "4:34"
+        }
+      ]
+    }
+  ]
+}

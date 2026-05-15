@@ -1,0 +1,50 @@
+{
+  "release_id": "1415899",
+  "master_id": "129301",
+  "title": "When We Rock, We Rock And When We Roll, We Roll",
+  "artist": "Deep Purple",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Space Truckin'",
+          "time": "4:31"
+        },
+        {
+          "title": "Kentucky Woman",
+          "time": "4:44"
+        },
+        {
+          "title": "Hard Road (Wring That Neck)",
+          "time": "5:11"
+        },
+        {
+          "title": "Burn",
+          "time": "6:00"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Woman From Tokyo",
+          "time": "5:30"
+        },
+        {
+          "title": "Hush",
+          "time": "4:20"
+        },
+        {
+          "title": "Smoke On The Water",
+          "time": "6:27"
+        },
+        {
+          "title": "Highway Star",
+          "time": "6:47"
+        }
+      ]
+    }
+  ]
+}

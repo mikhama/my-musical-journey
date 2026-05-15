@@ -1,0 +1,50 @@
+{
+  "release_id": "8637464",
+  "master_id": "57119",
+  "title": "Broken English",
+  "artist": "Marianne Faithfull",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Broken English",
+          "time": "4:35"
+        },
+        {
+          "title": "Witches' Song",
+          "time": "4:41"
+        },
+        {
+          "title": "Brain Drain",
+          "time": "4:10"
+        },
+        {
+          "title": "Guilt",
+          "time": "5:07"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "The Ballad Of Lucy Jordan",
+          "time": "4:06"
+        },
+        {
+          "title": "What's The Hurry",
+          "time": "3:03"
+        },
+        {
+          "title": "Working Class Hero",
+          "time": "4:41"
+        },
+        {
+          "title": "Why D'ya Do It",
+          "time": "6:41"
+        }
+      ]
+    }
+  ]
+}

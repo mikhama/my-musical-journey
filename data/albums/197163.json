@@ -1,0 +1,66 @@
+{
+  "release_id": "197163",
+  "master_id": "28680",
+  "title": "Hounds Of Love",
+  "artist": "Kate Bush",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Running Up That Hill (A Deal With God)",
+          "time": "4:56"
+        },
+        {
+          "title": "Hounds Of Love",
+          "time": "3:01"
+        },
+        {
+          "title": "The Big Sky",
+          "time": "4:35"
+        },
+        {
+          "title": "Mother Stands For Comfort",
+          "time": "3:05"
+        },
+        {
+          "title": "Cloudbusting",
+          "time": "5:07"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "And Dream Of Sheep",
+          "time": "2:40"
+        },
+        {
+          "title": "Under Ice",
+          "time": "2:22"
+        },
+        {
+          "title": "Waking The Witch",
+          "time": "4:17"
+        },
+        {
+          "title": "Watching You Without Me",
+          "time": "4:06"
+        },
+        {
+          "title": "Jig Of Life",
+          "time": "4:03"
+        },
+        {
+          "title": "Hello Earth",
+          "time": "6:10"
+        },
+        {
+          "title": "The Morning Fog",
+          "time": "2:32"
+        }
+      ]
+    }
+  ]
+}

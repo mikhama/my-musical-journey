@@ -1,0 +1,50 @@
+{
+  "release_id": "6621286",
+  "master_id": "84422",
+  "title": "A Child's Adventure",
+  "artist": "Marianne Faithfull",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Times Square",
+          "time": "4:22"
+        },
+        {
+          "title": "The Blue Millionaire",
+          "time": "5:35"
+        },
+        {
+          "title": "Falling From Grace",
+          "time": "3:56"
+        },
+        {
+          "title": "Morning Come",
+          "time": "5:16"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Ashes In My Hand",
+          "time": "4:51"
+        },
+        {
+          "title": "Running For Our Lives",
+          "time": "4:48"
+        },
+        {
+          "title": "Ireland",
+          "time": "4:37"
+        },
+        {
+          "title": "She's Got A Problem",
+          "time": "3:55"
+        }
+      ]
+    }
+  ]
+}

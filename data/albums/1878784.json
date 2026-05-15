@@ -1,0 +1,82 @@
+{
+  "release_id": "1878784",
+  "master_id": "376827",
+  "title": "Voice Of America (Welt-Erfolge)",
+  "artist": "John Denver",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Take Me Home Country Roads",
+          "time": "3:09"
+        },
+        {
+          "title": "Leaving, On A Jet Plane",
+          "time": "4:04"
+        },
+        {
+          "title": "Rocky Mountain High",
+          "time": "4:46"
+        },
+        {
+          "title": "Starwood In Aspen",
+          "time": "3:11"
+        },
+        {
+          "title": "Garden Song",
+          "time": "2:42"
+        },
+        {
+          "title": "Thank God I'm A Country Boy",
+          "time": "3:18"
+        },
+        {
+          "title": "Song For The Life",
+          "time": "3:41"
+        },
+        {
+          "title": "Annie's Song",
+          "time": "2:58"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Wrangell Mountain Song",
+          "time": "2:53"
+        },
+        {
+          "title": "Sunshine On My Shoulders",
+          "time": "5:10"
+        },
+        {
+          "title": "Welcome To My Morning (Farewell Andromeda)",
+          "time": "3:15"
+        },
+        {
+          "title": "For Baby (For Bobbie)",
+          "time": "2:56"
+        },
+        {
+          "title": "Follow Me",
+          "time": "2:49"
+        },
+        {
+          "title": "Back Home Again",
+          "time": "4:42"
+        },
+        {
+          "title": "Calypso",
+          "time": "3:32"
+        },
+        {
+          "title": "The Eagle And The Hawk",
+          "time": "2:14"
+        }
+      ]
+    }
+  ]
+}

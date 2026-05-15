@@ -1,0 +1,138 @@
+{
+  "release_id": "25049404",
+  "master_id": "2693624",
+  "title": "Stranger Things 4 (Soundtrack From The Netflix Series)",
+  "artist": "Stranger Things 4",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "artist": "Journey",
+          "title": "Separate Ways (Worlds Apart) (Bryce Miller/Alloy Tracks Remix)",
+          "time": "2:45"
+        },
+        {
+          "artist": "The Beach Boys",
+          "title": "California Dreamin'",
+          "time": "3:21"
+        },
+        {
+          "artist": "Talking Heads",
+          "title": "Psycho Killer",
+          "time": "4:18"
+        },
+        {
+          "artist": "Kate Bush",
+          "title": "Running Up That Hill (A Deal With God)",
+          "time": "5:00"
+        },
+        {
+          "artist": "Dead Or Alive",
+          "title": "You Spin Me Round (Like A Record)",
+          "time": "3:14"
+        },
+        {
+          "artist": "Mae Arnette",
+          "title": "Chica Mejicanita",
+          "time": "2:27"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "artist": "Extreme",
+          "title": "Play With Me",
+          "time": "3:27"
+        },
+        {
+          "artist": "Kiss",
+          "title": "Detroit Rock City (Single Version)",
+          "time": "3:36"
+        },
+        {
+          "artist": "The Cramps",
+          "title": "I Was A Teenage Werewolf",
+          "time": "3:03"
+        },
+        {
+          "artist": "Musical Youth",
+          "title": "Pass The Dutchie",
+          "time": "3:22"
+        },
+        {
+          "artist": "The Surfaris",
+          "title": "Wipeout",
+          "time": "2:13"
+        },
+        {
+          "artist": "Starpoint",
+          "title": "Object Of My Desire (Single Version)",
+          "time": "3:54"
+        }
+      ]
+    },
+    {
+      "side_label": "C",
+      "tracks": [
+        {
+          "artist": "Falco",
+          "title": "Rock Me Amadeus (The Gold Mix)",
+          "time": "3:46"
+        },
+        {
+          "artist": "Ricky Nelson",
+          "title": "Travelin' Man",
+          "time": "2:20"
+        },
+        {
+          "artist": "Baltimora",
+          "title": "Tarzan Boy",
+          "time": "3:49"
+        },
+        {
+          "artist": "Ella Fitzgerald, Louis Armstrong",
+          "title": "Dream A Little Dream Of Me",
+          "time": "3:05"
+        },
+        {
+          "artist": "Rick Derringer",
+          "title": "Rock And Roll, Hoochie Koo (Single Version)",
+          "time": "2:53"
+        },
+        {
+          "artist": "James Taylor",
+          "title": "Fire And Rain",
+          "time": "3:22"
+        }
+      ]
+    },
+    {
+      "side_label": "D",
+      "tracks": [
+        {
+          "artist": "Siouxsie & The Banshees",
+          "title": "Spellbound",
+          "time": "3:15"
+        },
+        {
+          "artist": "Metallica",
+          "title": "Master Of Puppets",
+          "time": "8:43"
+        },
+        {
+          "artist": "Moby",
+          "title": "When It’s Cold I’d Like To Die",
+          "time": "4:12"
+        },
+        {
+          "artist": "Journey",
+          "title": "Separate Ways (Worlds Apart) (Steve Perry & Bryce Miller Extended Remix)",
+          "time": "3:17"
+        }
+      ]
+    }
+  ]
+}

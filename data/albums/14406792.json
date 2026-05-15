@@ -1,0 +1,58 @@
+{
+  "release_id": "14406792",
+  "master_id": "32337",
+  "title": "Space Oddity (2019 Mix)",
+  "artist": "David Bowie",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Space Oddity",
+          "time": "5:20"
+        },
+        {
+          "title": "Unwashed And Somewhat Slightly Dazed",
+          "time": "6:19"
+        },
+        {
+          "title": "Letter To Hermione",
+          "time": "2:33"
+        },
+        {
+          "title": "Cygnet Committee",
+          "time": "9:37"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Janine",
+          "time": "3:21"
+        },
+        {
+          "title": "An Occasional Dream",
+          "time": "2:57"
+        },
+        {
+          "title": "The Wild Eyed Boy From Freecloud",
+          "time": "4:50"
+        },
+        {
+          "title": "Conversation Piece",
+          "time": "3:11"
+        },
+        {
+          "title": "God Knows I'm Good",
+          "time": "3:17"
+        },
+        {
+          "title": "Memory Of A Free Festival",
+          "time": "7:20"
+        }
+      ]
+    }
+  ]
+}

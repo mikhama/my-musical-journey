@@ -1,0 +1,50 @@
+{
+  "release_id": "368057",
+  "master_id": "4803",
+  "title": "Attention! Black Sabbath Volume One",
+  "artist": "Black Sabbath",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Paranoid",
+          "time": "2:45"
+        },
+        {
+          "title": "Sleeping Village",
+          "time": "3:50"
+        },
+        {
+          "title": "Warning",
+          "time": "10:30"
+        },
+        {
+          "title": "Evil Woman",
+          "time": "3:20"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Iron Man",
+          "time": "5:47"
+        },
+        {
+          "title": "The Wizard",
+          "time": "4:22"
+        },
+        {
+          "title": "Behind The Wall Of Sleep",
+          "time": "3:40"
+        },
+        {
+          "title": "N.I.B.",
+          "time": "5:58"
+        }
+      ]
+    }
+  ]
+}

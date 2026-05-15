@@ -1,0 +1,70 @@
+{
+  "release_id": "10372644",
+  "master_id": "54565",
+  "title": "Yellow Submarine",
+  "artist": "The Beatles",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Yellow Submarine",
+          "time": "2:38"
+        },
+        {
+          "title": "Only A Northern Song",
+          "time": "3:24"
+        },
+        {
+          "title": "All Together Now",
+          "time": "2:10"
+        },
+        {
+          "title": "Hey Bulldog",
+          "time": "3:11"
+        },
+        {
+          "title": "It's All Too Much",
+          "time": "6:25"
+        },
+        {
+          "title": "All You Need Is Love",
+          "time": "3:51"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Pepperland",
+          "time": "2:20"
+        },
+        {
+          "title": "Sea Of Time",
+          "time": "3:00"
+        },
+        {
+          "title": "Sea Of Holes",
+          "time": "2:16"
+        },
+        {
+          "title": "Sea Of Monsters",
+          "time": "3:36"
+        },
+        {
+          "title": "March Of The Meanies",
+          "time": "2:19"
+        },
+        {
+          "title": "Pepperland Laid Waste",
+          "time": "2:12"
+        },
+        {
+          "title": "Yellow Submarine In Pepperland",
+          "time": "2:12"
+        }
+      ]
+    }
+  ]
+}

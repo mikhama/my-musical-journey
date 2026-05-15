@@ -1,0 +1,96 @@
+{
+  "release_id": "4415837",
+  "master_id": "530238",
+  "title": "The Next Day",
+  "artist": "David Bowie",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "The Next Day",
+          "time": "3:26"
+        },
+        {
+          "title": "Dirty Boys",
+          "time": "2:58"
+        },
+        {
+          "title": "The Stars (Are Out Tonight)",
+          "time": "3:57"
+        },
+        {
+          "title": "Love Is Lost",
+          "time": "3:57"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Where Are We Now?",
+          "time": "4:09"
+        },
+        {
+          "title": "Valentine's Day",
+          "time": "3:02"
+        },
+        {
+          "title": "If You Can See Me",
+          "time": "3:12"
+        },
+        {
+          "title": "I'd Rather Be High",
+          "time": "3:44"
+        }
+      ]
+    },
+    {
+      "side_label": "C",
+      "tracks": [
+        {
+          "title": "Boss Of Me",
+          "time": "4:09"
+        },
+        {
+          "title": "Dancing Out In Space",
+          "time": "3:21"
+        },
+        {
+          "title": "How Does The Grass Grow?",
+          "time": "4:34"
+        },
+        {
+          "title": "(You Will) Set The World On Fire",
+          "time": "3:32"
+        }
+      ]
+    },
+    {
+      "side_label": "D",
+      "tracks": [
+        {
+          "title": "You Feel So Lonely You Could Die",
+          "time": "4:37"
+        },
+        {
+          "title": "Heat",
+          "time": "4:25"
+        },
+        {
+          "title": "So She",
+          "time": "2:31"
+        },
+        {
+          "title": "Plan",
+          "time": "2:02"
+        },
+        {
+          "title": "I'll Take You There",
+          "time": "2:41"
+        }
+      ]
+    }
+  ]
+}

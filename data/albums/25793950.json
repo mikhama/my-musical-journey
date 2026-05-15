@@ -1,0 +1,58 @@
+{
+  "release_id": "25793950",
+  "master_id": "2944231",
+  "title": "Sanah Śpiewa Poezyje",
+  "artist": "Sanah",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Rozwijając Rilkego",
+          "time": "2:34"
+        },
+        {
+          "title": "Hymn",
+          "time": "4:12"
+        },
+        {
+          "title": "Do * W Sztambuch",
+          "time": "3:25"
+        },
+        {
+          "title": "Nic Dwa Razy",
+          "time": "3:09"
+        },
+        {
+          "title": "(I) Da Bóg Kiedyś Zasiąść W Polsce Wolnej (Z Cyklu „Polonia Resurrecta”)",
+          "time": "3:04"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Warszawa",
+          "time": "1:44"
+        },
+        {
+          "title": "Bajka",
+          "time": "4:39"
+        },
+        {
+          "title": "Eldorado",
+          "time": "2:15"
+        },
+        {
+          "title": "Kamień",
+          "time": "4:07"
+        },
+        {
+          "title": "(II) Da Bóg Kiedyś Zasiąść W Polsce Wolnej (Z Cyklu „Polonia Resurrecta”)",
+          "time": "1:59"
+        }
+      ]
+    }
+  ]
+}

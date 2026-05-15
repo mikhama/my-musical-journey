@@ -1,0 +1,66 @@
+{
+  "release_id": "28651594",
+  "master_id": "3103305",
+  "title": "Degrengolada",
+  "artist": "Katarzyna Nosowska",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "artist": "Katarzyna Nosowska, Błażej Król",
+          "title": "Neodym",
+          "time": "4:04"
+        },
+        {
+          "title": "Runo",
+          "time": "5:04"
+        },
+        {
+          "title": "Rzekomo",
+          "time": "3:08"
+        },
+        {
+          "artist": "Katarzyna Nosowska, Jakub Józef Orliński, Mikołaj Krajewski",
+          "title": "Zimny",
+          "time": "4:17"
+        },
+        {
+          "artist": "Katarzyna Nosowska, Natalia Szroeder",
+          "title": "Majak",
+          "time": "5:01"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "artist": "Katarzyna Nosowska, Mikołaj Krajewski",
+          "title": "Predatoprzywry",
+          "time": "4:11"
+        },
+        {
+          "title": "Larum",
+          "time": "3:36"
+        },
+        {
+          "title": "Sosna",
+          "time": "3:22"
+        },
+        {
+          "title": "Przytomna",
+          "time": "3:00"
+        },
+        {
+          "title": "Piękna degrengolada",
+          "time": "4:07"
+        },
+        {
+          "title": "Ledwie wczoraj",
+          "time": "4:05"
+        }
+      ]
+    }
+  ]
+}
