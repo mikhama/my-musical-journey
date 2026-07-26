@@ -1,0 +1,58 @@
+{
+  "release_id": "35687413",
+  "master_id": "3969842",
+  "title": "Weirdo",
+  "artist": "The Rasmus",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Creatures Of Chaos",
+          "time": "3:19"
+        },
+        {
+          "title": "Break These Chains",
+          "time": "3:43"
+        },
+        {
+          "title": "Rest In Pieces",
+          "time": "2:56"
+        },
+        {
+          "title": "Dead Ringer",
+          "time": "3:19"
+        },
+        {
+          "title": "Weirdo",
+          "time": "2:57"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Banksy",
+          "time": "2:09"
+        },
+        {
+          "title": "Love Is A Bitch",
+          "time": "2:47"
+        },
+        {
+          "title": "You Want It All",
+          "time": "4:02"
+        },
+        {
+          "title": "Bad Things",
+          "time": "3:00"
+        },
+        {
+          "title": "I'm Coming For You",
+          "time": "4:24"
+        }
+      ]
+    }
+  ]
+}

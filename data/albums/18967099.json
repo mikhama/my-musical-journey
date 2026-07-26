@@ -1,0 +1,80 @@
+{
+  "release_id": "18967099",
+  "master_id": "2114758",
+  "title": "Thanks For Coming",
+  "artist": "Princess Goes To The Butterfly Museum",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Intro",
+          "time": "1:21"
+        },
+        {
+          "title": "Bombed Out Sites",
+          "time": "4:57"
+        },
+        {
+          "title": "Nevertheless",
+          "time": "3:54"
+        },
+        {
+          "title": "Thanks For Coming",
+          "time": "2:39"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Too Cool To Care",
+          "time": "4:23"
+        },
+        {
+          "title": "Armageddon Suite",
+          "time": "3:25"
+        },
+        {
+          "title": "Moodarama",
+          "time": "4:42"
+        }
+      ]
+    },
+    {
+      "side_label": "C",
+      "tracks": [
+        {
+          "title": "Eat An Eraser",
+          "time": "4:29"
+        },
+        {
+          "title": "The Deeper Down",
+          "time": "3:59"
+        },
+        {
+          "title": "Sideways",
+          "time": "4:29"
+        }
+      ]
+    },
+    {
+      "side_label": "D",
+      "tracks": [
+        {
+          "title": "Angela Peacock",
+          "time": "2:54"
+        },
+        {
+          "title": "Airhead",
+          "time": "3:21"
+        },
+        {
+          "title": "Tomorrow's Screams",
+          "time": "3:23"
+        }
+      ]
+    }
+  ]
+}

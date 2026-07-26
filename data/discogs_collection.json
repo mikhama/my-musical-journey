@@ -2600,5 +2600,195 @@
       ]
     },
     "folder_id": 1
+  },
+  {
+    "id": 18967099,
+    "instance_id": 2154594731,
+    "date_added": "2026-06-13T01:57:57-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 18967099,
+      "master_id": 2114758,
+      "master_url": "https://api.discogs.com/masters/2114758",
+      "resource_url": "https://api.discogs.com/releases/18967099",
+      "thumb": "https://i.discogs.com/ct3JOoFCp1vJkmzFi_k5tK0ZowKgU8Yqo6MJhWWWXYs/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4OTY3/MDk5LTE2MjI1MTk5/NjAtNzc0OC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/0xqto8hUwx0TMFfPZ-V--4DqAweA8G6y3NhzcPVTlLI/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4OTY3/MDk5LTE2MjI1MTk5/NjAtNzc0OC5qcGVn.jpeg",
+      "title": "Thanks For Coming",
+      "year": 2021,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Morpho Music (2)",
+          "catno": "LP-MM-002",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2396329,
+          "resource_url": "https://api.discogs.com/labels/2396329"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Princess Goes To The Butterfly Museum",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 8196536,
+          "resource_url": "https://api.discogs.com/artists/8196536"
+        }
+      ],
+      "genres": [
+        "Electronic",
+        "Rock",
+        "Pop"
+      ],
+      "styles": [
+        "Pop Rock",
+        "Synthwave",
+        "Synth-pop",
+        "New Wave",
+        "Power Pop"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 35687413,
+    "instance_id": 2162211994,
+    "date_added": "2026-07-08T13:31:34-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 35687413,
+      "master_id": 3969842,
+      "master_url": "https://api.discogs.com/masters/3969842",
+      "resource_url": "https://api.discogs.com/releases/35687413",
+      "thumb": "https://i.discogs.com/LTLOYDrE3Z5jsMtpqwyZ360Qw0hcA_2sFn4xki34PIc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Njg3/NDEzLTE3NjMzNzM3/ODMtMzYxNi5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/ftczAP0JQYi13ZabVMi8uyLk1DHCAXEF8OgDAYn7JyM/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Njg3/NDEzLTE3NjMzNzM3/ODMtMzYxNi5qcGVn.jpeg",
+      "title": "Weirdo",
+      "year": 2025,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Splatter, Tour Edition",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Stereo"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Better Noise Music",
+          "catno": "BNM-967-6",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 1776448,
+          "resource_url": "https://api.discogs.com/labels/1776448"
+        },
+        {
+          "name": "Playground Music",
+          "catno": "BNM-967-6",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 103526,
+          "resource_url": "https://api.discogs.com/labels/103526"
+        }
+      ],
+      "artists": [
+        {
+          "name": "The Rasmus",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 228700,
+          "resource_url": "https://api.discogs.com/artists/228700"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 37956252,
+    "instance_id": 2167170936,
+    "date_added": "2026-07-25T02:26:49-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 37956252,
+      "master_id": 939598,
+      "master_url": "https://api.discogs.com/masters/939598",
+      "resource_url": "https://api.discogs.com/releases/37956252",
+      "thumb": "https://i.discogs.com/EpEFIhXHxO8VCEkYynmZ05Qhs7Motgq4ySmXkK3a8EM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTU2/MjUyLTE3ODUwNDgz/NTctMzE1Ny5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/rS5RrIqKtFszAUiL_9THYsBNndjW-K9Cj6yheC8R5zg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTU2/MjUyLTE3ODUwNDgz/NTctMzE1Ny5qcGVn.jpeg",
+      "title": "★ (Blackstar)",
+      "year": 2026,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Parlophone",
+          "catno": "5021732397669",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2294,
+          "resource_url": "https://api.discogs.com/labels/2294"
+        },
+        {
+          "name": "ISO Records",
+          "catno": "DB0216-7",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 55782,
+          "resource_url": "https://api.discogs.com/labels/55782"
+        }
+      ],
+      "artists": [
+        {
+          "name": "David Bowie",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 10263,
+          "resource_url": "https://api.discogs.com/artists/10263"
+        }
+      ],
+      "genres": [
+        "Jazz",
+        "Rock"
+      ],
+      "styles": [
+        "Art Rock",
+        "Experimental",
+        "Jazz-Rock"
+      ]
+    },
+    "folder_id": 1
   }
 ]

@@ -271,5 +271,26 @@
     "master_id": "32337",
     "title": "Space Oddity (2019 Mix)",
     "artist": "David Bowie"
+  },
+  {
+    "id": "40",
+    "release_id": "18967099",
+    "master_id": "2114758",
+    "title": "Thanks For Coming",
+    "artist": "Princess Goes To The Butterfly Museum"
+  },
+  {
+    "id": "41",
+    "release_id": "35687413",
+    "master_id": "3969842",
+    "title": "Weirdo",
+    "artist": "The Rasmus"
+  },
+  {
+    "id": "42",
+    "release_id": "37956252",
+    "master_id": "939598",
+    "title": "★ (Blackstar)",
+    "artist": "David Bowie"
   }
 ]

@@ -606,6 +606,51 @@ TBD
 
 ---
 
+### 40. Princess Goes To The Butterfly Museum — Thanks For Coming
+
+<!-- release:18967099 master:2114758 -->
+2026-06-13
+
+From: Internet, Denmark
+
+Sparked By: 32
+
+TBD
+
+![Cover of Princess Goes To The Butterfly Museum — Thanks For Coming](https://i.discogs.com/0xqto8hUwx0TMFfPZ-V--4DqAweA8G6y3NhzcPVTlLI/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4OTY3/MDk5LTE2MjI1MTk5/NjAtNzc0OC5qcGVn.jpeg)
+
+---
+
+### 41. The Rasmus — Weirdo
+
+<!-- release:35687413 master:3969842 -->
+2026-07-08
+
+From: Internet, Finland
+
+Sparked By: Previnyl, advertisement on Facebook
+
+TBD
+
+![Cover of The Rasmus — Weirdo](https://i.discogs.com/ftczAP0JQYi13ZabVMi8uyLk1DHCAXEF8OgDAYn7JyM/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM1Njg3/NDEzLTE3NjMzNzM3/ODMtMzYxNi5qcGVn.jpeg)
+
+---
+
+### 42. David Bowie — ★ (Blackstar)
+
+<!-- release:37956252 master:939598 -->
+2026-07-25
+
+From: Internet, Denmark
+
+Sparked By: 32
+
+TBD
+
+![Cover of David Bowie — ★ (Blackstar)](https://i.discogs.com/rS5RrIqKtFszAUiL_9THYsBNndjW-K9Cj6yheC8R5zg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTU2/MjUyLTE3ODUwNDgz/NTctMzE1Ny5qcGVn.jpeg)
+
+---
+
 ## Colophon
 
 Written between needle drops. Set in Gloock for display, Fraunces for body, and DM Mono for liner notes. Cover art courtesy of the Discogs community database — use the button on each sleeve to find the exact pressing.

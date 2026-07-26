@@ -1,0 +1,46 @@
+{
+  "release_id": "37956252",
+  "master_id": "939598",
+  "title": "★ (Blackstar)",
+  "artist": "David Bowie",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "★ (Blackstar)",
+          "time": "9:57"
+        },
+        {
+          "title": "'Tis A Pity She Was A Whore",
+          "time": "4:52"
+        },
+        {
+          "title": "Lazarus",
+          "time": "6:22"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Sue (Or In A Season Of Crime)",
+          "time": "4:40"
+        },
+        {
+          "title": "Girl Loves Me",
+          "time": "4:51"
+        },
+        {
+          "title": "Dollar Days",
+          "time": "4:44"
+        },
+        {
+          "title": "I Can't Give Everything Away",
+          "time": "5:47"
+        }
+      ]
+    }
+  ]
+}
