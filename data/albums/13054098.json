@@ -1,0 +1,100 @@
+{
+  "release_id": "13054098",
+  "master_id": "10345",
+  "title": "A Nice Pair",
+  "artist": "Pink Floyd",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Astronomy Domine",
+          "time": "4:12"
+        },
+        {
+          "title": "Lucifer Sam",
+          "time": "3:07"
+        },
+        {
+          "title": "Matilda Mother",
+          "time": "3:08"
+        },
+        {
+          "title": "Flaming",
+          "time": "2:46"
+        },
+        {
+          "title": "Pow R. Toc H.",
+          "time": "4:26"
+        },
+        {
+          "title": "Take Up Thy Stethoscope And Walk",
+          "time": "3:05"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Interstellar Overdrive",
+          "time": "9:41"
+        },
+        {
+          "title": "The Gnome",
+          "time": "2:13"
+        },
+        {
+          "title": "Chapter 24",
+          "time": "3:42"
+        },
+        {
+          "title": "Scarecrow",
+          "time": "2:11"
+        },
+        {
+          "title": "Bike",
+          "time": "3:21"
+        }
+      ]
+    },
+    {
+      "side_label": "C",
+      "tracks": [
+        {
+          "title": "Let There Be More Light",
+          "time": "5:38"
+        },
+        {
+          "title": "Remember A Day",
+          "time": "4:33"
+        },
+        {
+          "title": "Set The Controls For The Heart Of The Sun",
+          "time": "5:28"
+        },
+        {
+          "title": "Corporal Clegg",
+          "time": "4:12"
+        }
+      ]
+    },
+    {
+      "side_label": "D",
+      "tracks": [
+        {
+          "title": "A Saucerful Of Secrets",
+          "time": "11:57"
+        },
+        {
+          "title": "See Saw",
+          "time": "4:36"
+        },
+        {
+          "title": "Jugband Blues",
+          "time": "2:59"
+        }
+      ]
+    }
+  ]
+}

@@ -651,6 +651,51 @@ TBD
 
 ---
 
+### 43. Pink Floyd — A Nice Pair
+
+<!-- release:13054098 master:10345 -->
+2026-08-08
+
+From: Krakow
+
+Sparked By: Blindbuy
+
+TBD
+
+![Cover of Pink Floyd — A Nice Pair](https://i.discogs.com/W2FmIkome7RvrEf8k_SJdO4PSfkmL3oYxp8gik4coxA/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDU0/MDk4LTE1NDcyMzUw/NjctOTIzMS5qcGVn.jpeg)
+
+---
+
+### 44. Iron Maiden — Death On The Road
+
+<!-- release:10615639 master:21522 -->
+2026-08-22
+
+From: Warsaw
+
+Sparked By: Song "Fear of the Dark"
+
+TBD
+
+![Cover of Iron Maiden — Death On The Road](https://i.discogs.com/89RmPFKu4hkAOtLgD7Kyc7gHc-s1Er8IauGwFzbuDIw/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjE1/NjM5LTE1MDEwMDE5/MDktNjEwMi5qcGVn.jpeg)
+
+---
+
+### 45. Би-2 — Аллилуйя
+
+<!-- release:26897732 master:3074174 -->
+2026-09-16
+
+From: Belarus
+
+Sparked By: Song "Я никому не верю"
+
+TBD
+
+![Cover of Би-2 — Аллилуйя](https://i.discogs.com/ibDp4YaKGBBFy2MqpgABt1lGTxgpjyUc_qzCDIO5JsM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODk3/NzMyLTE2ODI1ODgw/NjMtNjE2Ny5qcGVn.jpeg)
+
+---
+
 ## Colophon
 
 Written between needle drops. Set in Gloock for display, Fraunces for body, and DM Mono for liner notes. Cover art courtesy of the Discogs community database — use the button on each sleeve to find the exact pressing.

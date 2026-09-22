@@ -209,7 +209,6 @@
           "qty": "2",
           "descriptions": [
             "LP",
-            "Album",
             "Compilation"
           ]
         }
@@ -239,7 +238,8 @@
         "Rock"
       ],
       "styles": [
-        "Nu Metal"
+        "Nu Metal",
+        "Alternative Rock"
       ]
     },
     "folder_id": 1
@@ -2735,8 +2735,8 @@
       "master_id": 939598,
       "master_url": "https://api.discogs.com/masters/939598",
       "resource_url": "https://api.discogs.com/releases/37956252",
-      "thumb": "https://i.discogs.com/EpEFIhXHxO8VCEkYynmZ05Qhs7Motgq4ySmXkK3a8EM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTU2/MjUyLTE3ODUwNDgz/NTctMzE1Ny5qcGVn.jpeg",
-      "cover_image": "https://i.discogs.com/rS5RrIqKtFszAUiL_9THYsBNndjW-K9Cj6yheC8R5zg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTU2/MjUyLTE3ODUwNDgz/NTctMzE1Ny5qcGVn.jpeg",
+      "thumb": "https://i.discogs.com/wBvoTbjY4CBgLER_F8XrOf075r2Dlte6mwq_deKgFJc/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTU2/MjUyLTE3ODg3NjQw/NjQtMzUzNC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/oibee8F12PGEOCuQmM4ihFo6Ti_SYLeDkCfoGCCY71w/rs:fit/g:sm/q:90/h:596/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3OTU2/MjUyLTE3ODg3NjQw/NjQtMzUzNC5qcGVn.jpeg",
       "title": "★ (Blackstar)",
       "year": 2026,
       "formats": [
@@ -2787,6 +2787,181 @@
         "Art Rock",
         "Experimental",
         "Jazz-Rock"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 13054098,
+    "instance_id": 2171823490,
+    "date_added": "2026-08-08T10:49:27-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 13054098,
+      "master_id": 10345,
+      "master_url": "https://api.discogs.com/masters/10345",
+      "resource_url": "https://api.discogs.com/releases/13054098",
+      "thumb": "https://i.discogs.com/TX9zBsct238FcxJ-pw2taXk5S2vswAWzSOH6gnC-P9o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDU0/MDk4LTE1NDcyMzUw/NjctOTIzMS5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/W2FmIkome7RvrEf8k_SJdO4PSfkmL3oYxp8gik4coxA/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDU0/MDk4LTE1NDcyMzUw/NjctOTIzMS5qcGVn.jpeg",
+      "title": "A Nice Pair",
+      "year": 0,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Gatefold",
+          "descriptions": [
+            "LP",
+            "Compilation"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Harvest",
+          "catno": "SHDW 403",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2564,
+          "resource_url": "https://api.discogs.com/labels/2564"
+        },
+        {
+          "name": "Harvest",
+          "catno": "0C 148 ◦ 50203-4",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2564,
+          "resource_url": "https://api.discogs.com/labels/2564"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Pink Floyd",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 45467,
+          "resource_url": "https://api.discogs.com/artists/45467"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Psychedelic Rock",
+        "Prog Rock"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 10615639,
+    "instance_id": 2176388316,
+    "date_added": "2026-08-22T04:01:25-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 10615639,
+      "master_id": 21522,
+      "master_url": "https://api.discogs.com/masters/21522",
+      "resource_url": "https://api.discogs.com/releases/10615639",
+      "thumb": "https://i.discogs.com/JDqOAy2wLFzKyLEZEPDQvpQQICTRNET7LZwMGZamNm0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjE1/NjM5LTE1MDEwMDE5/MDktNjEwMi5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/89RmPFKu4hkAOtLgD7Kyc7gHc-s1Er8IauGwFzbuDIw/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNjE1/NjM5LTE1MDEwMDE5/MDktNjEwMi5qcGVn.jpeg",
+      "title": "Death On The Road",
+      "year": 2017,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue",
+            "Remastered"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Parlophone",
+          "catno": "0190295836443",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 2294,
+          "resource_url": "https://api.discogs.com/labels/2294"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Iron Maiden",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 251595,
+          "resource_url": "https://api.discogs.com/artists/251595"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Heavy Metal"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 26897732,
+    "instance_id": 2184882596,
+    "date_added": "2026-09-16T08:45:52-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 26897732,
+      "master_id": 3074174,
+      "master_url": "https://api.discogs.com/masters/3074174",
+      "resource_url": "https://api.discogs.com/releases/26897732",
+      "thumb": "https://i.discogs.com/exf5ELiTJVgWMJx2bS-XydQ6kjZk2uS01aU4BEZwsw0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODk3/NzMyLTE2ODI1ODgw/NjMtNjE2Ny5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/ibDp4YaKGBBFy2MqpgABt1lGTxgpjyUc_qzCDIO5JsM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2ODk3/NzMyLTE2ODI1ODgw/NjMtNjE2Ny5qcGVn.jpeg",
+      "title": "Аллилуйя",
+      "year": 2023,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Stereo"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "M2 (2)",
+          "catno": "none",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 207100,
+          "resource_url": "https://api.discogs.com/labels/207100"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Би-2",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 141604,
+          "resource_url": "https://api.discogs.com/artists/141604"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Alternative Rock"
       ]
     },
     "folder_id": 1

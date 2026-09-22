@@ -1,0 +1,92 @@
+{
+  "release_id": "10615639",
+  "master_id": "21522",
+  "title": "Death On The Road",
+  "artist": "Iron Maiden",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Wildest Dreams",
+          "time": "4:51"
+        },
+        {
+          "title": "Wrathchild",
+          "time": "2:59"
+        },
+        {
+          "title": "Can I Play With Madness",
+          "time": "3:31"
+        },
+        {
+          "title": "The Trooper",
+          "time": "4:11"
+        },
+        {
+          "title": "Dance Of Death",
+          "time": "9:34"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Rainmaker",
+          "time": "4:11"
+        },
+        {
+          "title": "Brave New World",
+          "time": "6:09"
+        },
+        {
+          "title": "Paschendale",
+          "time": "10:17"
+        },
+        {
+          "title": "Lord Of The Flies",
+          "time": "5:04"
+        }
+      ]
+    },
+    {
+      "side_label": "C",
+      "tracks": [
+        {
+          "title": "No More Lies",
+          "time": "8:06"
+        },
+        {
+          "title": "Hallowed Be Thy Name",
+          "time": "7:40"
+        },
+        {
+          "title": "Fear Of The Dark",
+          "time": "7:38"
+        }
+      ]
+    },
+    {
+      "side_label": "D",
+      "tracks": [
+        {
+          "title": "Iron Maiden",
+          "time": "5:09"
+        },
+        {
+          "title": "Journeyman",
+          "time": "7:02"
+        },
+        {
+          "title": "The Number Of The Beast",
+          "time": "4:57"
+        },
+        {
+          "title": "Run To The Hills",
+          "time": "4:23"
+        }
+      ]
+    }
+  ]
+}

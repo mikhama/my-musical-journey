@@ -292,5 +292,26 @@
     "master_id": "939598",
     "title": "★ (Blackstar)",
     "artist": "David Bowie"
+  },
+  {
+    "id": "43",
+    "release_id": "13054098",
+    "master_id": "10345",
+    "title": "A Nice Pair",
+    "artist": "Pink Floyd"
+  },
+  {
+    "id": "44",
+    "release_id": "10615639",
+    "master_id": "21522",
+    "title": "Death On The Road",
+    "artist": "Iron Maiden"
+  },
+  {
+    "id": "45",
+    "release_id": "26897732",
+    "master_id": "3074174",
+    "title": "Аллилуйя",
+    "artist": "Би-2"
   }
 ]
