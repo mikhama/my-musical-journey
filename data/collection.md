@@ -656,7 +656,7 @@ TBD
 <!-- release:13054098 master:10345 -->
 2026-08-08
 
-From: Krakow
+From: Krakow, Poland
 
 Sparked By: Blindbuy
 
@@ -671,7 +671,7 @@ TBD
 <!-- release:10615639 master:21522 -->
 2026-08-22
 
-From: Warsaw
+From: Warsaw, Poland
 
 Sparked By: Song "Fear of the Dark"
 
@@ -686,7 +686,7 @@ TBD
 <!-- release:26897732 master:3074174 -->
 2026-09-16
 
-From: Belarus
+From: Minsk, Belarus
 
 Sparked By: Song "Я никому не верю"
 
