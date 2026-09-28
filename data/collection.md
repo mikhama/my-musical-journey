@@ -696,6 +696,21 @@ TBD
 
 ---
 
+### 46. Кино — Последний Герой
+
+<!-- release:14267838 master:90719 -->
+2026-09-28
+
+From: Minsk, Belarus
+
+Sparked By: Previnyl
+
+TBD
+
+![Cover of Кино — Последний Герой](https://i.discogs.com/jWrxKtVSB0AfRb4jEmW09wmBGNP6ZkHnuIscvF62P_A/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MjY3/ODM4LTE1NzEwOTA5/MzktNjA0NS5qcGVn.jpeg)
+
+---
+
 ## Colophon
 
 Written between needle drops. Set in Gloock for display, Fraunces for body, and DM Mono for liner notes. Cover art courtesy of the Discogs community database — use the button on each sleeve to find the exact pressing.
