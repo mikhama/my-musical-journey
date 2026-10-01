@@ -3022,5 +3022,69 @@
       ]
     },
     "folder_id": 1
+  },
+  {
+    "id": 38527233,
+    "instance_id": 2189728067,
+    "date_added": "2026-10-01T06:52:38-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 38527233,
+      "master_id": 4354941,
+      "master_url": "https://api.discogs.com/masters/4354941",
+      "resource_url": "https://api.discogs.com/releases/38527233",
+      "thumb": "https://i.discogs.com/dj2JjAWCAfkfooCE9WEgjtVCEbW_gVJNFwqdGDwDSmw/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NTI3/MjMzLTE3OTAzMjkw/NjMtMTkyNy5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/xV_AYaa3HHKtfTUS5GpzLn7oDLRSy0EGX_kPKxBWgbo/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NTI3/MjMzLTE3OTAzMjkw/NjMtMTkyNy5qcGVn.jpeg",
+      "title": "Unshatter - Film Soundtrack (Live In São Paulo)",
+      "year": 2026,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "2",
+          "text": "Citrus",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Limited Edition"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Warner Records",
+          "catno": "093624821458",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 134882,
+          "resource_url": "https://api.discogs.com/labels/134882"
+        },
+        {
+          "name": "Linkin Park, LLC",
+          "catno": "093624821458",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 498206,
+          "resource_url": "https://api.discogs.com/labels/498206"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Linkin Park",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 40029,
+          "resource_url": "https://api.discogs.com/artists/40029"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Nu Metal"
+      ]
+    },
+    "folder_id": 1
   }
 ]

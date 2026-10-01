@@ -711,6 +711,21 @@ TBD
 
 ---
 
+### 47. Linkin Park — Unshatter - Film Soundtrack (Live In São Paulo)
+
+<!-- release:38527233 master:4354941 -->
+2026-10-01
+
+From: Internet, Netherlands
+
+Sparked By: 30
+
+TBD
+
+![Cover of Linkin Park — Unshatter - Film Soundtrack (Live In São Paulo)](https://i.discogs.com/xV_AYaa3HHKtfTUS5GpzLn7oDLRSy0EGX_kPKxBWgbo/rs:fit/g:sm/q:90/h:600/w:591/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NTI3/MjMzLTE3OTAzMjkw/NjMtMTkyNy5qcGVn.jpeg)
+
+---
+
 ## Colophon
 
 Written between needle drops. Set in Gloock for display, Fraunces for body, and DM Mono for liner notes. Cover art courtesy of the Discogs community database — use the button on each sleeve to find the exact pressing.

@@ -1,0 +1,92 @@
+{
+  "release_id": "38527233",
+  "master_id": "4354941",
+  "title": "Unshatter - Film Soundtrack (Live In São Paulo)",
+  "artist": "Linkin Park",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Somewhere I Belong",
+          "time": "6:08"
+        },
+        {
+          "title": "The Emptiness Machine",
+          "time": "3:17"
+        },
+        {
+          "title": "The Catalyst",
+          "time": "6:42"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Waiting For The End",
+          "time": "4:11"
+        },
+        {
+          "title": "Casualty",
+          "time": "2:27"
+        },
+        {
+          "title": "Two Faced",
+          "time": "3:44"
+        },
+        {
+          "title": "Lost",
+          "time": "2:47"
+        },
+        {
+          "title": "What I've Done",
+          "time": "3:32"
+        }
+      ]
+    },
+    {
+      "side_label": "C",
+      "tracks": [
+        {
+          "title": "Leave Out All The Rest",
+          "time": "4:57"
+        },
+        {
+          "title": "Over Each Other",
+          "time": "2:57"
+        },
+        {
+          "title": "Numb",
+          "time": "3:27"
+        },
+        {
+          "title": "In The End",
+          "time": "3:44"
+        },
+        {
+          "title": "Faint",
+          "time": "4:21"
+        }
+      ]
+    },
+    {
+      "side_label": "D",
+      "tracks": [
+        {
+          "title": "Papercut",
+          "time": "5:06"
+        },
+        {
+          "title": "Heavy Is The Crown",
+          "time": "2:48"
+        },
+        {
+          "title": "Bleed It Out",
+          "time": "5:29"
+        }
+      ]
+    }
+  ]
+}
