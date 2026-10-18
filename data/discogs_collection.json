@@ -3059,12 +3059,12 @@
           "resource_url": "https://api.discogs.com/labels/134882"
         },
         {
-          "name": "Linkin Park, LLC",
+          "name": "Machine Shop Recordings",
           "catno": "093624821458",
           "entity_type": "1",
           "entity_type_name": "Label",
-          "id": 498206,
-          "resource_url": "https://api.discogs.com/labels/498206"
+          "id": 49462,
+          "resource_url": "https://api.discogs.com/labels/49462"
         }
       ],
       "artists": [
@@ -3083,6 +3083,61 @@
       ],
       "styles": [
         "Nu Metal"
+      ]
+    },
+    "folder_id": 1
+  },
+  {
+    "id": 34817093,
+    "instance_id": 2195419023,
+    "date_added": "2026-10-18T06:17:53-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 34817093,
+      "master_id": 3931736,
+      "master_url": "https://api.discogs.com/masters/3931736",
+      "resource_url": "https://api.discogs.com/releases/34817093",
+      "thumb": "https://i.discogs.com/oiMtDIppYLhb1jx2Ov0_m1c7LUuUXbwBjJcSGmtOhpg/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODE3/MDkzLTE3NTUxODY0/OTQtMzgyOC5qcGVn.jpeg",
+      "cover_image": "https://i.discogs.com/5HAhGDypEbxQi1Zb5bFs_nt2h6vDuq7y0Mf-t3-oluY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODE3/MDkzLTE3NTUxODY0/OTQtMzgyOC5qcGVn.jpeg",
+      "title": "Everest",
+      "year": 2025,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "text": "Pink, Gatefold",
+          "descriptions": [
+            "LP",
+            "Album"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "Atlantic",
+          "catno": "075678599309",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 681,
+          "resource_url": "https://api.discogs.com/labels/681"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Halestorm",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 611591,
+          "resource_url": "https://api.discogs.com/artists/611591"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Hard Rock"
       ]
     },
     "folder_id": 1

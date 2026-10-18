@@ -726,6 +726,21 @@ TBD
 
 ---
 
+### 48. Halestorm — Everest
+
+<!-- release:34817093 master:3931736 -->
+2026-10-18
+
+From: Internet, Denmark
+
+Sparked By: A facebook reel 
+
+TBD
+
+![Cover of Halestorm — Everest](https://i.discogs.com/5HAhGDypEbxQi1Zb5bFs_nt2h6vDuq7y0Mf-t3-oluY/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0ODE3/MDkzLTE3NTUxODY0/OTQtMzgyOC5qcGVn.jpeg)
+
+---
+
 ## Colophon
 
 Written between needle drops. Set in Gloock for display, Fraunces for body, and DM Mono for liner notes. Cover art courtesy of the Discogs community database — use the button on each sleeve to find the exact pressing.

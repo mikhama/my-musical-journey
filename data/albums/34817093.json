@@ -1,0 +1,66 @@
+{
+  "release_id": "34817093",
+  "master_id": "3931736",
+  "title": "Everest",
+  "artist": "Halestorm",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Fallen Star",
+          "time": "4:33"
+        },
+        {
+          "title": "Everest",
+          "time": "4:48"
+        },
+        {
+          "title": "Shiver",
+          "time": "3:51"
+        },
+        {
+          "title": "Like A Woman Can",
+          "time": "4:22"
+        },
+        {
+          "title": "Rain Your Blood On Me",
+          "time": "4:15"
+        },
+        {
+          "title": "Darkness Always Wins",
+          "time": "4:50"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Gather The Lambs",
+          "time": "3:54"
+        },
+        {
+          "title": "Watch Out!",
+          "time": "3:38"
+        },
+        {
+          "title": "Broken Doll",
+          "time": "3:24"
+        },
+        {
+          "title": "K-I-L-L-I-N-G",
+          "time": "2:36"
+        },
+        {
+          "title": "I Gave You Everything",
+          "time": "4:31"
+        },
+        {
+          "title": "How Will You Remember Me?",
+          "time": "3:56"
+        }
+      ]
+    }
+  ]
+}
