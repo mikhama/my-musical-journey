@@ -3141,5 +3141,60 @@
       ]
     },
     "folder_id": 1
+  },
+  {
+    "id": 8347964,
+    "instance_id": 2197303705,
+    "date_added": "2026-10-24T04:53:35-07:00",
+    "rating": 0,
+    "basic_information": {
+      "id": 8347964,
+      "master_id": 30712,
+      "master_url": "https://api.discogs.com/masters/30712",
+      "resource_url": "https://api.discogs.com/releases/8347964",
+      "thumb": "https://i.discogs.com/9Y6uTeGLcnKYvi47BnELZctzke3EuKcVF913l1b6Yao/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNDc5/NjQtMTcyNDY5NzI1/Mi01NjQ3LmpwZWc.jpeg",
+      "cover_image": "https://i.discogs.com/IV2Fp6OBy0fIFxIZzckJWoHQtsk8FD5I-tqw3hTPaiE/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNDc5/NjQtMTcyNDY5NzI1/Mi01NjQ3LmpwZWc.jpeg",
+      "title": "Toto IV",
+      "year": 1985,
+      "formats": [
+        {
+          "name": "Vinyl",
+          "qty": "1",
+          "descriptions": [
+            "LP",
+            "Album",
+            "Reissue"
+          ]
+        }
+      ],
+      "labels": [
+        {
+          "name": "CBS/Sony",
+          "catno": "25AP 2970",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 33078,
+          "resource_url": "https://api.discogs.com/labels/33078"
+        }
+      ],
+      "artists": [
+        {
+          "name": "Toto",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 68693,
+          "resource_url": "https://api.discogs.com/artists/68693"
+        }
+      ],
+      "genres": [
+        "Rock"
+      ],
+      "styles": [
+        "Pop Rock"
+      ]
+    },
+    "folder_id": 1
   }
 ]

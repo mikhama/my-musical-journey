@@ -741,6 +741,21 @@ TBD
 
 ---
 
+### 49. Toto — Toto IV
+
+<!-- release:8347964 master:30712 -->
+2026-10-24
+
+From: Poznań, Poland
+
+Sparked By: Song "Africa"
+
+TBD
+
+![Cover of Toto — Toto IV](https://i.discogs.com/IV2Fp6OBy0fIFxIZzckJWoHQtsk8FD5I-tqw3hTPaiE/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgzNDc5/NjQtMTcyNDY5NzI1/Mi01NjQ3LmpwZWc.jpeg)
+
+---
+
 ## Colophon
 
 Written between needle drops. Set in Gloock for display, Fraunces for body, and DM Mono for liner notes. Cover art courtesy of the Discogs community database — use the button on each sleeve to find the exact pressing.

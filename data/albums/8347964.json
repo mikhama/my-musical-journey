@@ -1,0 +1,58 @@
+{
+  "release_id": "8347964",
+  "master_id": "30712",
+  "title": "Toto IV",
+  "artist": "Toto",
+  "sides": [
+    {
+      "side_label": "A",
+      "tracks": [
+        {
+          "title": "Rosanna",
+          "time": "5:32"
+        },
+        {
+          "title": "Make Believe",
+          "time": "3:43"
+        },
+        {
+          "title": "I Won't Hold You Back",
+          "time": "4:56"
+        },
+        {
+          "title": "Good For You",
+          "time": "3:18"
+        },
+        {
+          "title": "It's A Feeling",
+          "time": "3:06"
+        }
+      ]
+    },
+    {
+      "side_label": "B",
+      "tracks": [
+        {
+          "title": "Afraid Of Love",
+          "time": "3:53"
+        },
+        {
+          "title": "Lovers In The Night",
+          "time": "4:27"
+        },
+        {
+          "title": "We Made It",
+          "time": "3:56"
+        },
+        {
+          "title": "Waiting For Your Love",
+          "time": "4:13"
+        },
+        {
+          "title": "Africa",
+          "time": "4:55"
+        }
+      ]
+    }
+  ]
+}
