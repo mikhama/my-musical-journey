@@ -4,11 +4,5 @@
         "name": "Sumiko Olympia",
         "capacity_min_hours:": 800,
         "capacity_max_hours:": 1000
-    },
-    {
-        "id": "9999",
-        "name": "Test",
-        "capacity_min_hours:": 800,
-        "capacity_max_hours:": 1000
     }
 ]
