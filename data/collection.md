@@ -4,7 +4,7 @@
 
 Tagline: Wandered with ceremony, as records deserve, through —
 
-Chain: Dual 721 → Symuko Olympia → Schiit Mani 2 → Yamaha A-S501 → Elac Debut Reference B6
+Chain: Dual 721 → Sumiko Olympia → Schiit Mani 2 → Yamaha A-S501 → Elac Debut Reference B6
 
 ## Preface
 
